@@ -1,0 +1,7 @@
+---
+layout: post
+title: 关闭lineageOS的CPU热插拔
+tag: 
+---
+
+<h1 id="前话"><a href="#前话" class="headerlink" title="前话"></a>前话</h1><p>我的红米2刷了<a href="https://lineageos.org/" target="_blank" rel="noopener">lineageos</a>之后，稳定性和易用性都很好(尤其是Los的下载多镜像站的速度实在是赞)，可就是续航…简直尿崩<br><a id="more"></a></p><h1 id="实操"><a href="#实操" class="headerlink" title="实操"></a>实操</h1><p>打开内核调教，简直吓我一惊，每个核心竟然以每100ms的速度在频繁上线、下线😐这肯定有热插拔控制，可是…<br><img src="https://i.loli.net/2017/11/22/5a14fdccd968e.png" alt=""></p><p><img src="https://i.loli.net/2017/11/22/5a14fe1d38a39.png" alt=""><br><strong>热插拔根本就没有😱</strong></p><p>然后去Init自启脚本看了看，发现了下面这段<br><img src="https://i.loli.net/2017/11/22/5a1500ab7b852.png" alt=""></p><p>核心控制文件<strong>/sys/devices/system/cpu/cpu0/core_ctl/min_cpus</strong>,只要将这个文件的数字改成你的最大核心数即可<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 410示例</span></span><br><span class="line">write /sys/devices/system/cpu/cpu0/core_ctl/min_cpus 4</span><br></pre></td></tr></table></figure></p><p>然后再关闭CPU自动升频，把性能配置改为性能模式就好<br><img src="https://i.loli.net/2017/11/22/5a150234e8ed6.png" alt=""></p><p>然后就可以和CPU调速器愉快的玩耍了♂</p><h1 id="调速器配置"><a href="#调速器配置" class="headerlink" title="调速器配置"></a>调速器配置</h1><p>给大家推荐<a href="http://www.coolapk.com/u/557898" target="_blank" rel="noopener">@yc9559</a>,经常在酷安发各种调速器配置，用的很爽</p>

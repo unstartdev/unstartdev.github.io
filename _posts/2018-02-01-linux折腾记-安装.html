@@ -1,0 +1,7 @@
+---
+layout: post
+title: linux折腾记-安装
+tag: 
+---
+
+<p>家里有一台联想家悦U2136A，这是2007年的老机子了，上面还装着过气的windows vista系统，许多软件已经不再提供支持了，所以我就打算给它装个linux系统。<br><a id="more"></a></p><p>它达不到ubuntu desktop的推荐要求，我干脆就选用了debian+xfce的组合</p><blockquote><p>这是使用的镜像<a href="http://iso.mirrors.ustc.edu.cn/debian-cd/current-live/amd64/iso-hybrid/debian-live-9.3.0-amd64-xfce.iso" target="_blank" rel="noopener">USTC Mirror</a></p></blockquote><h2 id="First-烧录镜像至U盘"><a href="#First-烧录镜像至U盘" class="headerlink" title="First:烧录镜像至U盘"></a>First:烧录镜像至U盘</h2><p>我用的是<a href="https://rufus.akeo.ie/?locale=zh_CN" target="_blank" rel="noopener">rufus</a>,开箱即用，使用默认配置烧录linux的镜像即可。</p><h2 id="Second-安装"><a href="#Second-安装" class="headerlink" title="Second:安装"></a>Second:安装</h2><p>首先需要在BIOS中关闭fast boot，不过这台机子的BIOS很特别，它把fast boot写成了System Optimization(坑死我了)，把它改为disable即可</p><p>然后在开机界面按下F12改变引导选项为USB，稍等一会即可进入debian installer，第三项为图形化安装界面(G开头)</p><h2 id="Thrid-开机"><a href="#Thrid-开机" class="headerlink" title="Thrid:开机"></a>Thrid:开机</h2><p>当看到登录界面时，成功！</p>
