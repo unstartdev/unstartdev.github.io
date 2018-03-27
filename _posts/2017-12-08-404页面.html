@@ -1,7 +1,25 @@
 ---
 layout: post
 title: 404页面
-tag: 
+tag: site
 ---
+趁着周六放假，我给我的网站加了个404页面
 
-<p>趁着周六放假，我给我的网站加了个404页面</p><p>是基于Google的404页面修改的404页面，去除了LOGO，十分简单<br>奉上源码:<br><a id="more"></a><br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">zh</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">utf-8</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">viewport</span> <span class="attr">content</span>=<span class="string">"initial-scale=1, minimum-scale=1, width=device-width"</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 请将下面的url换成你自己的 --&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"refresh"</span> <span class="attr">content</span>=<span class="string">"30; url=https://nameme.xyz"</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 此处为网页标题 --&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>404,页面不见了 --N/A<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined">    *&#123;margin:0;padding:0&#125;html,code&#123;font:15px/22px arial,sans-serif&#125;html&#123;background:#fff;color:#222;padding:15px&#125;body&#123;margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px&#125;* &gt; p&#123;margin:11px 0 22px;overflow:hidden&#125;ins&#123;color:#777;text-decoration:none&#125;a img&#123;border:0&#125;@media screen and (max-width:772px)&#123;body&#123;background:none;margin-top:0;max-width:none;padding-right:0&#125;&#125; no-repeat;margin-left:-5px&#125;@media only screen and (min-resolution:192dpi)</span></span><br><span class="line"><span class="undefined">  </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>404.<span class="tag">&lt;/<span class="name">b</span>&gt;</span> <span class="tag">&lt;<span class="name">ins</span>&gt;</span>这是一个错误<span class="tag">&lt;/<span class="name">ins</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>请求的url未能在这台服务器上找到，请检查输入的url.<span class="tag">&lt;/<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">ins</span>&gt;</span>这是我们知道的所有.<span class="tag">&lt;/<span class="name">ins</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+是基于Google的404页面修改的404页面，去除了LOGO，十分简单
+奉上源码:
+
+{% highlight html %}
+<!DOCTYPE html>
+<html lang=zh>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+<!-- 请将下面的url换成你自己的 -->
+  <meta http-equiv="refresh" content="30; url=https://nameme.xyz">
+<!-- 此处为网页标题 -->
+  <title>404,页面不见了 --N/A</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}} no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi)
+  </style>
+  <p><b>404.</b> <ins>这是一个错误</ins>
+  <p>请求的url未能在这台服务器上找到，请检查输入的url.</p><ins>这是我们知道的所有.</ins>
+{% endhighlight %}
