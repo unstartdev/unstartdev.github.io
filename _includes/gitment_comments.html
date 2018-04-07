@@ -1,0 +1,17 @@
+{%- if page.comments != false and jekyll.environment == "production" -%}
+<div id="comments"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitment/style/default.css">
+<script src="https://cdn.jsdelivr.net/npm/gitment/dist/gitment.browser.js"><script>
+<script>
+var gitment = new Gitment({
+  id: '', // 可选。默认为 location.href
+  owner: '{{ site.gitment.owner }}',
+  repo: '{{ site.gitment.repo }}',
+  oauth: {
+    client_id: '{{ site.gitment.oauth.client_id }}',
+    client_secret: '{{ site.gitment.oauth.client_secret }}',
+  },
+})
+gitment.render('comments')
+</script>
+{%- endif -%}
