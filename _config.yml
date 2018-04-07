@@ -22,6 +22,7 @@ url: "https://n-a.date" # the base hostname & protocol for your site, e.g. http:
 #twitter_username: NONE
 github_username: unstartdev
 timezone: Asia/Shanghai
+google_analytics: UA-110545039-1
 
 # Build settings
 markdown: kramdown
