@@ -11,7 +11,7 @@ case $whatisthis in
   echo "Input new post's categories:"
   read _post_categories
   touch ./_posts/${TIMEFILE}-${_post_title}.md
-  echo "---" >> ./_posts/{${TIMEFILE}}-${_post_title}.md
+  echo "---" >> ./_posts/${TIMEFILE}-${_post_title}.md
   echo "layout: post" >> ./_posts/${TIMEFILE}-${_post_title}.md
   echo "title: ${_post_title}" >> ./_posts/${TIMEFILE}-${_post_title}.md
   echo "date: ${TIMENOW}" >> ./_posts/${TIMEFILE}-${_post_title}.md
