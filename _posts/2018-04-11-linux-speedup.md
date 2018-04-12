@@ -47,6 +47,42 @@ net.ipv4.tcp_window_scaling = 1
 
 ## 进程处理优先级
 
+### Verynice
+
+Verynice 那很棒！Nice级别就是linux中的进程处理优先级，它负责控制谁允许占用cpu性能的更多或更少
+
+AUR: [Click here][1]
+
+设定verynice开机自启
+{% highlight shell %}
+sudo systemctl enable verynice.service
+{% endhighlight %}
+
+配置文件位于`/etc/verynice.conf`
+
+### hungryexe
+
+这个flag适用于长期cpu占用率为100%的程序，在两个高cpu占用的程序在，一个为hungryexe而另一个没有该flag，那么hungryexe程序会被暂停或直接被杀死
+
+### goodexe
+
+这个flag适用于多媒体程序，使它们不会轻易地被系统停止，让X变成goodexe也是个好主意
+
+在Archlinux中加上`goodexe /usr/lib/xorg-server/Xorg`
+
+在其它系统上使用如下命令:
+{% highlight shell %}
+sudo ps -aux | grep X
+{% endhighlight %}
+
+将进程后面的命令替换`/usr/lib/xorg-server/Xorg`再填入即可
+
+### runawayexe
+
+这个flag中的应用程序将会肆无忌惮地吃掉你的cpu请谨慎填写
+
 [^1]: [ArchLinux wiki Sysctl](https://wiki.archlinux.org/index.php/Sysctl#Virtual_memory)
 
 [^2]: [ArchLinux wiki Sysctl](https://wiki.archlinux.org/index.php/Sysctl#Virtual_memory)
+
+[1]: https://aur.archlinux.org/packages/verynice/
