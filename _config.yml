@@ -31,11 +31,8 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-pagination:
-  enabled: true
-  per_page: 10
-  title: ':title - 第:num页'
-  locale: 'zh_CN'
+paginate: 5
+paginate_path: "/page/:num/"
 
 gitment:
   enable: true
