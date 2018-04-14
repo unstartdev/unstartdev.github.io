@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-permalink: /links
+permalink: /links/
 ---
 美丽应用: [mlapp.cn](https://mlapp.cn)
 

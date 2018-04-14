@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Timeline
-permalink: /timeline
+permalink: /timeline/
 ---
 # * 2018 & 全新开始
 
