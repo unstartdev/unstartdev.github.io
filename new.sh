@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 TIMENOW=`date "+%Y-%m-%d %T %z"`
 TIMEFILE=`date +%Y-%m-%d`
 echo "What is this?"
@@ -6,9 +6,9 @@ echo "Type(post\page):"
 read whatisthis
 case $whatisthis in
   post )
-  echo "Input new post's title:"
+  echo "Input new post\'s title:"
   read _post_title
-  echo "Input new post's categories:"
+  echo "Input new post\'s categories:"
   read _post_categories
   touch ./_posts/${TIMEFILE}-${_post_title}.md
   echo "---" >> ./_posts/${TIMEFILE}-${_post_title}.md
@@ -28,9 +28,9 @@ case $whatisthis in
   unset _post_categories
     ;;
   page )
-  echo "Input new page's title:"
+  echo "Input new page\'s title:"
   read _page_title
-  echo "Input new page's permalink"
+  echo "Input new page\'s permalink"
   read _page_permalink
   touch ./${_page_title}.md
   echo "---" >> ./${_page_title}.md
