@@ -33,7 +33,7 @@ emmm...为什么屏幕上的东西都那么大，是我撸多了吗？
 5. Notepad++ (极为好用的文本编辑器)
 6. Visual Studio (造代码的强大IDE)
 7. putty全套 (极佳的ssh工具)
-6. [Libreoffice](https://zh-cn.libreoffice.org/)\[WPS Office政府版(办公工具)](http://www.sjzrs.gov.cn/col/1515395624617/2018/02/11/1518329562990.html)
+6. [Libreoffice](https://zh-cn.libreoffice.org/)/[WPS Office政府版(办公工具)](http://www.sjzrs.gov.cn/col/1515395624617/2018/02/11/1518329562990.html)
 
 
 
