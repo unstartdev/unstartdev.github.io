@@ -34,14 +34,6 @@ plugins:
 #paginate: 5
 #paginate_path: "/page/:num/"
 
-gitment:
-  enable: true
-  owner: unstartdev
-  repo: unstartdev.github.io
-  oauth:
-    client_id: 4f2e3a545ce5cd17a494
-    client_secret: 97af88a25215689997b186d418e16c38373b30d4
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
