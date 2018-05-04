@@ -31,7 +31,12 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-#paginate: 5
+paginate:
+        enabled: true
+        per_page: 10
+        permalink: '/page/:num/'
+        title: ':title - Page :num'
+        locale: 'zh_CN'
 #paginate_path: "/page/:num/"
 
 # Exclude from processing.
