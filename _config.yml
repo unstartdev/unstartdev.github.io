@@ -30,13 +30,9 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-paginate
 
-pagination:
-        enabled: true
-        per_page: 10
-        permalink: '/page/:num/'
-        title: ':title - Page :num'
-        locale: 'zh_CN'
+paginate: 5
 #paginate_path: "/page/:num/"
 
 # Exclude from processing.
