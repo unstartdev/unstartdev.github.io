@@ -10,11 +10,11 @@ require(['lncldav', 'valine'], function (valine) {
         el: '#comment',
         notify: false,
         verify: false,
-        appId: '{{ site.valine.appid }}',
-        appKey: '{{ site.valine.appkey }}',
+        appId: 'zzVxYEdgSg9Glf88mC84VG6a-MdYXbMMI',
+        appKey: 'dWwF0uammXUkNl2nqAQDpDW7',
         placeholder: 'Play a game',
         path:window.location.pathname,
         avatar: 'retro',
-        region: '{{ site.valine.region }}'
+        region: 'us'
     });
 });
