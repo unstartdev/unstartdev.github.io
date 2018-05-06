@@ -11,7 +11,7 @@
   <script src="https://cdn.jsdelivr.net/gh/muicss/loadjs/dist/loadjs.min.js"></script>
   {%- if jekyll.environment == 'production' and site.valine.enabled -%}
   <script>
-    loadjs(['https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js', 'https://cdn1.lncld.net/static/js/3.0.4/av-min.js', 'https://unpkg.com/valine/dist/Valine.min.js'], function() {
+    loadjs(['https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js', 'https://cdn1.lncld.net/static/js/3.0.4/av-min.js', 'https://unpkg.com/valine/dist/Valine.min.js', 'https://cdn.jsdelivr.net/npm/webfontloader@1/webfontloader.min.js'], function() {
       new Valine({
         el: '#comment' ,
         notify:{{ site.valine.notify }}, 
@@ -23,7 +23,15 @@
         avatar:'{{ site.valine.avatar }}',
         region:'{{ site.valine.region }}'
       });
+    WebFont.load({
+      google: {
+        families: ['Source Code Pro']
+      }
+    });
     });
   </script>
   {%- endif -%}
+  <style>
+    pre, code { font-family: Consolas, Monaco, "Source Code Pro", monospace;}
+  </style>
 </head>
