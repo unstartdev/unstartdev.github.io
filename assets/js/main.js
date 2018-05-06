@@ -5,7 +5,8 @@ require.config({
     }
 });
 
-require(['lncldav', 'valine'], function Valine() {
+require(['lncldav', 'valine'], function (lncldav, valine) {
+    var valine = new Valine();
     valine.init({
         el: '#comment',
         notify: false,
