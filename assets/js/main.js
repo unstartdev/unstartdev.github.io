@@ -1,7 +1,7 @@
 require.config({
     paths: {
-        "lncldav": "https://cdn1.lncld.net/static/js/3.0.4/av-min.js",
-        "valine": "https://unpkg.com/valine/dist/Valine.min.js"
+        "lncldav": "https://cdn1.lncld.net/static/js/3.0.4/av-min",
+        "valine": "https://unpkg.com/valine/dist/Valine.min"
     }
 });
 
