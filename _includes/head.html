@@ -1,0 +1,27 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+  <script src="https://cdn.jsdelivr.net/gh/muicss/loadjs/dist/loadjs.min.js"></script>
+  <script>
+    loadjs(['https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js', 'https://cdn1.lncld.net/static/js/3.0.4/av-min.js', 'https://unpkg.com/valine/dist/Valine.min.js'], function() {
+      new Valine({
+        el: '#comment' ,
+        notify:false, 
+        verify:false, 
+        appId: '27C1J8NnDsg7TJDXn03efOkb-MdYXbMMI',
+        appKey: '3KLNAxfjACc8yPYzDsGDvxTU',
+        placeholder: 'just go go',
+        path:window.location.pathname, 
+        avatar:'mm',
+        region:'us'
+      });
+    });
+  </script>
+</head>
