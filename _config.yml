@@ -25,8 +25,8 @@ timezone: Asia/Shanghai
 google_analytics: UA-110545039-1
 valine:
   enabled: true
-  appid: '3KLNAxfjACc8yPYzDsGDvxTU'
-  appkey: '27C1J8NnDsg7TJDXn03efOkb-MdYXbMMI'
+  appid: '27C1J8NnDsg7TJDXn03efOkb-MdYXbMMI'
+  appkey: '3KLNAxfjACc8yPYzDsGDvxTU'
   region: 'us'
   notify: 'false'
   verify: 'true'
