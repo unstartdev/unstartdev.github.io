@@ -8,19 +8,4 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-  <script>
-    new Valine({
-        el: '#comment',
-        notify: false,
-        verify: false,
-        appId: 'zzVxYEdgSg9Glf88mC84VG6a-MdYXbMMI',
-        appKey: 'dWwF0uammXUkNl2nqAQDpDW7',
-        placeholder: 'Play a game',
-        path:window.location.pathname,
-        avatar: 'retro',
-        region: 'us'
-    });
-  </script>
 </head>
