@@ -9,19 +9,21 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
   <script src="https://cdn.jsdelivr.net/gh/muicss/loadjs/dist/loadjs.min.js"></script>
+  {%- if jekyll.environment == 'production' and site.valine.enabled %-}
   <script>
     loadjs(['https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js', 'https://cdn1.lncld.net/static/js/3.0.4/av-min.js', 'https://unpkg.com/valine/dist/Valine.min.js'], function() {
       new Valine({
         el: '#comment' ,
-        notify:false, 
-        verify:false, 
-        appId: '27C1J8NnDsg7TJDXn03efOkb-MdYXbMMI',
-        appKey: '3KLNAxfjACc8yPYzDsGDvxTU',
-        placeholder: 'just go go',
+        notify:{{ site.valine.notify }}, 
+        verify:{{ site.valine.verify }}, 
+        appId: '{{ site.valine.appid }}',
+        appKey: '{{ site.valine.appkey }}',
+        placeholder: '{{ site.valine.placeholder }}',
         path:window.location.pathname, 
-        avatar:'mm',
-        region:'us'
+        avatar:'{{ site.valine.avatar }}',
+        region:'{{ site.valine.region }}'
       });
     });
   </script>
+  {%- endif -%}
 </head>

@@ -23,6 +23,15 @@ url: "https://n-a.date" # the base hostname & protocol for your site, e.g. http:
 github_username: unstartdev
 timezone: Asia/Shanghai
 google_analytics: UA-110545039-1
+valine:
+  enabled: true
+  appid: '3KLNAxfjACc8yPYzDsGDvxTU'
+  appkey: '27C1J8NnDsg7TJDXn03efOkb-MdYXbMMI'
+  region: 'us'
+  notify: 'false'
+  verify: 'true'
+  placeholder: 'Touch Me!'
+  avatar: 'mm'
 
 # Build settings
 markdown: kramdown
