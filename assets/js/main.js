@@ -5,16 +5,16 @@ require.config({
     }
 });
 
-require(['lncldav', 'valine'], function (lncldav, valine){
-    new Valine({
-        el: '#comment' ,
-        notify:false, 
-        verify:false, 
+require(['lncldav', 'valine'], function (valine) {
+    init({
+        el: '#comment',
+        notify: false,
+        verify: false,
         appId: '{{ site.valine.appid }}',
         appKey: '{{ site.valine.appkey }}',
         placeholder: 'Play a game',
-        path:window.location.pathname, 
-        avatar:'retro',
-        region:'{{ site.valine.region }}'
+        path:window.location.pathname,
+        avatar: 'retro',
+        region: '{{ site.valine.region }}'
     });
 });
