@@ -23,9 +23,7 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
-  {%- if site.valine.enabled -%}
-    {%- include valine-comment.html -%}
-  {%- endif -%}
+{%- include valine-comment.html -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
