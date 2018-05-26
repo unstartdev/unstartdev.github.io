@@ -34,7 +34,7 @@ valine:
   avatar: 'mm'
 
 # Build settings
-lang: zh-cmn-Hans
+lang: zh
 markdown: kramdown
 theme: minima
 plugins:
