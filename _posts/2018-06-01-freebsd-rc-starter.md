@@ -77,6 +77,6 @@ command="/usr/local/sbin/nginx"
 extra_commands="reload" #嗯没错就这一行
 
 run_rc_command "$1"
-{% endhighlighten %}
+{% endhighlight %}
 
 有些程序可能并不会为reload提供支持请注意
