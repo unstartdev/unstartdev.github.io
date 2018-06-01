@@ -26,7 +26,7 @@ load_rc_config $name	#此处为载入配置行
 command="/bin/xxdaemon"	#daemon的启动命令
 
 run_rc_command "$1"
-{% highlightend %}
+{% endhighlight %}
 
 ## 进阶
 
@@ -49,7 +49,7 @@ command="/usr/sbin/daemon"
 command_args="-u root -p /var/run/jekylld.pid -o /root/test.log /usr/local/bin/bundle exec jekyll build --source /home/git/site --layouts /home/git/site/_layouts --destination /home/nginx/site --watch"
 
 run_rc_command "$1"
-{% highlightend%}
+{% endhighlight %}
 
 这里多了
 	export:sh里最常用的环境变量定义方法
@@ -77,6 +77,6 @@ command="/usr/local/sbin/nginx"
 extra_commands="reload" #嗯没错就这一行
 
 run_rc_command "$1"
-{% highlightend %}
+{% endhighlighten %}
 
 有些程序可能并不会为reload提供支持请注意
