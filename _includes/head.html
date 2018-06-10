@@ -7,9 +7,9 @@
   {%- feed_meta -%}
 
   <script src="{{ "/assets/loadjs.min.js" | relative_url }}" integrity="sha256-WPCHCPctJWphyhEourNIEYJPZRMDkh6/ZVWM4WJu04w=" crossorigin="anonymous"></script>
-  {%- if jekyll.environment == 'production' and site.valine.enabled -%}
   <script>
-    loadjs(['https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js', 'https://cdn1.lncld.net/static/js/3.0.4/av-min.js', 'https://cdn.jsdelivr.net/npm/valine@1.1.9-beta9/dist/Valine.min.js', 'https://cdn.jsdelivr.net/npm/webfontloader@1/webfontloader.min.js'], function() {
+    loadjs({%- if jekyll environment == 'production' and site.valine.enabled -%}['https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js', 'https://cdn1.lncld.net/static/js/3.0.4/av-min.js', 'https://cdn.jsdelivr.net/npm/valine@1.1.9-beta9/dist/Valine.min.js', {%- endif -%}'https://cdn.jsdelivr.net/npm/webfontloader@1/webfontloader.min.js'], function() {
+  {%- if jekyll.environment == 'production' and site.valine.enabled -%}
       new Valine({
         el: '#comment' ,
         notify:{{ site.valine.notify }}, 
@@ -21,6 +21,7 @@
         avatar:'{{ site.valine.avatar }}',
         region:'{{ site.valine.region }}'
       });
+  {%- endif -%}
     WebFont.load({
       google: {
         families: ['Source Code Pro']
@@ -28,7 +29,6 @@
     });
     });
   </script>
-  {%- endif -%}
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
