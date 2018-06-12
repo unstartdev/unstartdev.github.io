@@ -12,7 +12,7 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in paginator.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -32,7 +32,7 @@ layout: default
     {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
     {% else %}
       <span>&laquo; Prev</span>
     {% endif %}
@@ -41,11 +41,11 @@ layout: default
       {% if page == paginator.page %}
         <em>{{ page }}</em>
       {% elsif page == 1 %}
-        <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">
+        <a href="{{ '/index.html' | relaive_url }}">
           {{ page }}
         </a>
       {% else %}
-        <a href="{{ site.paginate_path | prepend: '/' | replace: '//', '/' | replace: ':num', page }}">
+        <a href="{{ site.paginate_path | relaive_url }}">
           {{ page }}
         </a>
       {% endif %}
