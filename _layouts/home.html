@@ -45,7 +45,7 @@ layout: default
           {{ page }}
         </a>
       {% else %}
-        <a href="{{ site.paginate_path | relaive_url }}">
+        <a href="{{ site.paginate_path | relaive_url | replace: ':num', page }}">
           {{ page }}
         </a>
       {% endif %}
