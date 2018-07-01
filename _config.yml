@@ -18,7 +18,7 @@ email: unstart.dev(#)gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   你好吗UAU
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://blog.n-a.date" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://n-a.date" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: NONE
 github_username: unstartdev
 timezone: Asia/Shanghai
