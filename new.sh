@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 TIMENOW=`date "+%Y-%m-%d %T %z"`
 TIMEFILE=`date +%Y-%m-%d`
 echo "What is this?"
