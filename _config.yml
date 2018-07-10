@@ -28,7 +28,7 @@ valine:
   appid: '27C1J8NnDsg7TJDXn03efOkb-MdYXbMMI'
   appkey: '3KLNAxfjACc8yPYzDsGDvxTU'
   region: 'us'
-  notify: 'false'
+  notify: 'true'
   verify: 'true'
   placeholder: 'Touch Me!'
   avatar: 'mm'
