@@ -9,7 +9,9 @@ permalink: /links/
 
 #### 黎明余光: [blog.lim-light.com](https://blog.lim-light.com)
 
-#### QAQ: [roms.galent.top](https://roms.galent.top)
+#### QAQ论坛: [roms.galent.top](https://roms.galent.top)
+
+#### 悦风: [www.acandroid.top](https://www.acandroid.top)
 
 我可能漏了哪位...
 
