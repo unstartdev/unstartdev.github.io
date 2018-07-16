@@ -1,6 +1,6 @@
 ---
 layout: post
-title: python-homework-bmi
+title: Python课后作业——bmi计算器
 date: 2018-07-16 09:51:07 +0800
 categories: Python
 ---
