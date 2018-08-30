@@ -5,6 +5,16 @@ permalink: /timeline/
 ---
 # * 2018 & 全新开始
 
+## June
+
+### 27th
+- 搬到Vultr新加坡机房
+
+## July
+
+### 15th
+- 搬到Vultr法兰克福机房
+
 ## May
 
 ### 12th
