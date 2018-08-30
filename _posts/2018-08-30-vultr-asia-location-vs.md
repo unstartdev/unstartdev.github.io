@@ -1,6 +1,6 @@
 ---
 layout: post
-title: vultr-asia-location-vs
+title: Vultr亚洲机房对比
 date: 2018-08-30 18:29:56 +0800
 categories: VPS
 ---
