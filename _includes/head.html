@@ -31,8 +31,7 @@
     });
     $.getJSON("https://api.n-a.date/random-cuts.php?jsonpcallback=?", function(data)
     {
-      console.log(data);
-      console.log(data.content);
+      document.getElementById("cut").innerHTML = $data.content;
     });
     });
   </script>
