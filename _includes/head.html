@@ -32,8 +32,7 @@
     $.getJSON("https://api.n-a.date/random-cuts.php?jsonpcallback=?", function(data)
     {
       console.log(data);
-      cuts = JSON.parse(data);
-      console.log(cuts.content);
+      console.log(data.content);
     });
     });
   </script>
