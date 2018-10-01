@@ -15,7 +15,7 @@ categories: log
 
 1. jQuery
 
-<% highlight js %>
+{% highlight js %}
 <script>
     $.getJSON("https://api.n-a.date/random-cuts.php?jsonpcallback=?", function(data)
     {
@@ -25,11 +25,11 @@ categories: log
     });
     });
 </script>
-<% endhighlight %>
+{% endhighlight %}
 
 2. 原生javascript(jsonp)
 
-<% highlight js %>
+{% highlight js %}
 <script>
     function callbackFunction(result, methodName)
     {
@@ -39,15 +39,15 @@ categories: log
     }
 </script>
 <script src="https://api.n-a.date/random-cuts.php?jsonpcallback=callbackFunction"></script>
-<% endhighlight %>
+{% endhighlight %}
 
 注意，两种方法都需要在你希望显示的地方加入以下HTML
 
-<% highlight html %>
+{% highlight html %}
 <p id="cut"></p>
 <h5><p id="translate"></p></h5>
 <h4><p id="from"></p></h4>
-<% endhighlight %>
+{% endhighlight %}
 
 ### 2. 101商店
 
