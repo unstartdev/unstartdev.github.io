@@ -6,7 +6,7 @@ categories: log
 ---
 ### 1. 取自各种电影\动漫的一句话
 
-[https://api.n-a.date/random-cuts.php](https://api.n-a.date/random-cuts.php?jsoncallback=test)
+[https://api.n-a.date/random-cuts.php](https://api.n-a.date/random-cuts.php?jsonpcallback=test)
 目前数目还非常少，各位可以在评论向我推荐
 
 所获得数据为jsonp,这种方式可以安全跨域
