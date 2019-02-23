@@ -5,3 +5,4 @@ initcomment.rb
 nohup.out
 vendor
 Gemfile.lock
+.bundle
