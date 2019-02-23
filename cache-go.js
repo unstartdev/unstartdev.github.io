@@ -1,5 +1,8 @@
 console.log("run");
 importScripts("https://cdn.jsdelivr.net/npm/workbox-sw@3.6.3/build/workbox-sw.min.js");
+workbox.setConfig({
+    modulePathPrefix: '/assets/workbox/'
+});
 workbox.routing.registerRoute(
     /.*\.(?:png|jpg|jpeg|svg|gif)/g,
     workbox.strategies.cacheFirst()
