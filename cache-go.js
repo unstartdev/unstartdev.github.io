@@ -4,7 +4,7 @@ workbox.setConfig({
     modulePathPrefix: '/assets/workbox/'
 });
 workbox.routing.registerRoute(
-    /.*\.(?:png|jpg|jpeg|svg|gif)/g,
+    new RegExp ('.+\.(?:png|jpg|jpeg|svg|gif)'),
     workbox.strategies.cacheFirst()
 );
 workbox.routing.registerRoute(
