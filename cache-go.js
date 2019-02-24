@@ -4,11 +4,15 @@ workbox.setConfig({
     modulePathPrefix: '/assets/workbox/'
 });
 workbox.routing.registerRoute(
-    new RegExp ('.+\.png|jpg|jpeg|svg|gif'),
+    new RegExp('.+\.png|jpg|jpeg|svg|gif|ico'),
     workbox.strategies.cacheFirst()
 );
 workbox.routing.registerRoute(
-    new RegExp ('https://.+\.png|jpg|jpeg|svg|gif'),
+    new RegExp('https://i\.loli\.net/(.*)'),
+    workbox.strategies.cacheFirst()
+);
+workbox.routing.registerRoute(
+    new RegExp('https://ooo\.0o0\.ooo/(.*)'),
     workbox.strategies.cacheFirst()
 );
 workbox.routing.registerRoute(
