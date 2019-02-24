@@ -15,7 +15,9 @@
   </style>
 <script>
     if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
         navigator.serviceWorker.register('/cache-go.js');
+      });
     }
     </script>
   <script src="{{ "/assets/loadjs.min.js" | relative_url }}" integrity="sha256-WPCHCPctJWphyhEourNIEYJPZRMDkh6/ZVWM4WJu04w=" crossorigin="anonymous"></script>

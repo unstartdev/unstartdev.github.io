@@ -20,6 +20,10 @@ workbox.routing.registerRoute(
     workbox.strategies.cacheFirst()
 );
 workbox.routing.registerRoute(
+    new RegExp('https://fonts\.gstatic\.com/(.*)'),
+    workbox.strategies.cacheFirst()
+);
+workbox.routing.registerRoute(
     new RegExp('https://us-api\.leancloud\.cn/(.*)'),
     workbox.strategies.networkOnly()
 );
