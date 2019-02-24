@@ -8,6 +8,10 @@ workbox.routing.registerRoute(
     workbox.strategies.cacheFirst()
 );
 workbox.routing.registerRoute(
+    new RegExp ('https://.+\.png|jpg|jpeg|svg|gif'),
+    workbox.strategies.cacheFirst()
+);
+workbox.routing.registerRoute(
     new RegExp('https://cdn\.jsdelivr\.net/(.*)'),
     workbox.strategies.cacheFirst()
 );
