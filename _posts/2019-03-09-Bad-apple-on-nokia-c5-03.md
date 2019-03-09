@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bad-apple-on-nokia-c5-03
+title: 在C5-03上放bad apple
 date: 2019-03-09 12:34:49 +0800
 categories: 瞎搞
 ---
