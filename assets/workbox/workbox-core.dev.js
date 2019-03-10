@@ -1604,7 +1604,7 @@ this.workbox.core = (function (exports) {
   */
 
   try {
-    self.workbox.v = self.workbox.v || {};
+    workbox.v = workbox.v || {};
   } catch (errer) {} // NOOP
 
   exports._private = _private;
