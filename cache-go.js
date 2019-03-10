@@ -8,11 +8,25 @@ self.workbox.routing.registerRoute(
 );
 self.workbox.routing.registerRoute(
     new RegExp('https://i\.loli\.net/(.*)'),
-    self.workbox.strategies.cacheFirst()
+    self.workbox.strategies.cacheFirst({
+        cacheName: 'image-cache',
+        plugins: [
+          new workbox.expiration.Plugin({
+            maxEntries: maxEntries,
+          }),
+        ],
+    })
 );
 self.workbox.routing.registerRoute(
     new RegExp('https://ooo\.0o0\.ooo/(.*)'),
-    self.workbox.strategies.cacheFirst()
+    self.workbox.strategies.cacheFirst({
+        cacheName: 'image-cache',
+        plugins: [
+          new workbox.expiration.Plugin({
+            maxEntries: maxEntries,
+          }),
+        ],
+    })
 );
 self.workbox.routing.registerRoute(
     new RegExp('https://cdn\.jsdelivr\.net/(.*)'),
