@@ -1,14 +1,14 @@
-self.importScripts("https://n-a.date/assets/workbox/workbox-sw.js?v=4.00-rc3");
-self.workbox.setConfig({
+importScripts("https://n-a.date/assets/workbox/workbox-sw.js?v=4.00-rc3");
+workbox.setConfig({
     modulePathPrefix: '/assets/workbox/'
 });
-self.workbox.routing.registerRoute(
+workbox.routing.registerRoute(
     new RegExp('.+\.(png|jpg|jpeg|svg|gif|ico)'),
-    self.workbox.strategies.cacheFirst()
+    workbox.strategies.cacheFirst()
 );
-self.workbox.routing.registerRoute(
+workbox.routing.registerRoute(
     new RegExp('https://i\.loli\.net/(.*)'),
-    self.workbox.strategies.cacheFirst({
+    workbox.strategies.cacheFirst({
         cacheName: 'image-cache',
         plugins: [
           new workbox.expiration.Plugin({
@@ -17,9 +17,9 @@ self.workbox.routing.registerRoute(
         ],
     })
 );
-self.workbox.routing.registerRoute(
+workbox.routing.registerRoute(
     new RegExp('https://ooo\.0o0\.ooo/(.*)'),
-    self.workbox.strategies.cacheFirst({
+    workbox.strategies.cacheFirst({
         cacheName: 'image-cache',
         plugins: [
           new workbox.expiration.Plugin({
@@ -28,45 +28,45 @@ self.workbox.routing.registerRoute(
         ],
     })
 );
-self.workbox.routing.registerRoute(
+workbox.routing.registerRoute(
     new RegExp('https://cdn\.jsdelivr\.net/(.*)'),
-    self.workbox.strategies.cacheFirst()
+    workbox.strategies.cacheFirst()
 );
-self.workbox.routing.registerRoute(
+workbox.routing.registerRoute(
     'https://cdn1.lncld.net/static/js/3.0.4/av-min.js',
-    self.workbox.strategies.cacheFirst()
+    workbox.strategies.cacheFirst()
 );
-self.workbox.routing.registerRoute(
+workbox.routing.registerRoute(
     new RegExp('https://fonts\.googleapis\.com/(.*)'),
-    self.workbox.strategies.cacheFirst()
+    workbox.strategies.cacheFirst()
 );
-self.workbox.routing.registerRoute(
+workbox.routing.registerRoute(
     new RegExp('https://fonts\.gstatic\.com/(.*)'),
-    self.workbox.strategies.cacheFirst()
+    workbox.strategies.cacheFirst()
 );
-self.workbox.routing.registerRoute(
+workbox.routing.registerRoute(
     new RegExp('https://us-api\.leancloud\.cn/(.*)'),
-    self.workbox.strategies.networkOnly()
+    workbox.strategies.networkOnly()
 );
-self.workbox.routing.registerRoute(
+workbox.routing.registerRoute(
     new RegExp('.+\.html$'),
-    self.workbox.strategies.networkFirst()
+    workbox.strategies.networkFirst()
 );
-self.workbox.routing.registerRoute(
+workbox.routing.registerRoute(
     new RegExp('.+loadjs\.min\.js'),
-    self.workbox.strategies.cacheFirst()
+    workbox.strategies.cacheFirst()
 );
-self.workbox.routing.registerRoute(
+workbox.routing.registerRoute(
     new RegExp('.+main\.css'),
-    new self.workbox.strategies.StaleWhileRevalidate()
+    new workbox.strategies.StaleWhileRevalidate()
 );
-self.workbox.routing.registerRoute(
+workbox.routing.registerRoute(
     new RegExp('https://api\.n-a\.date/(.*)'),
-    self.workbox.strategies.networkOnly()
+    workbox.strategies.networkOnly()
 );
-self.workbox.routing.registerRoute(
+workbox.routing.registerRoute(
     new RegExp('.+cache-go.js'),
-    self.workbox.strategies.networkFirst()
+    workbox.strategies.networkFirst()
 );
 self.addEventListener('install', event => {
     event.waitUntil(self.skipWaiting());
