@@ -10,22 +10,12 @@ workbox.routing.registerRoute(
     new RegExp('https://i\.loli\.net/(.*)'),
     workbox.strategies.cacheFirst({
         cacheName: 'image-cache',
-        plugins: [
-          new workbox.expiration.Plugin({
-            maxEntries: maxEntries,
-          }),
-        ],
     })
 );
 workbox.routing.registerRoute(
     new RegExp('https://ooo\.0o0\.ooo/(.*)'),
     workbox.strategies.cacheFirst({
         cacheName: 'image-cache',
-        plugins: [
-          new workbox.expiration.Plugin({
-            maxEntries: maxEntries,
-          }),
-        ],
     })
 );
 workbox.routing.registerRoute(
