@@ -15,6 +15,8 @@ permalink: /links/
 
 #### 行云小站：[w568w.ml](https://w568w.ml/)
 
+#### Frost-zx: [blog.frost-zx.top](https://blog.frost-zx.top)
+
 我可能漏了哪位...
 
 加友链发邮件...
