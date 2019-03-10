@@ -1,4 +1,4 @@
-self.importScripts("https://cdn.jsdelivr.net/npm/self.workbox-sw@3.6.3/build/self.workbox-sw.min.js");
+self.importScripts("https://cdn.jsdelivr.net/npm/workbox-sw@3.6.3/build/workbox-sw.min.js");
 self.workbox.setConfig({
     modulePathPrefix: '/assets/workbox/'
 });
