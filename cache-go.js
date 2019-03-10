@@ -44,7 +44,7 @@ self.workbox.routing.registerRoute(
 );
 self.workbox.routing.registerRoute(
     new RegExp('.+main\.css'),
-    new self.workbox.strategies.cacheFirst()
+    new self.workbox.strategies.StaleWhileRevalidate()
 );
 self.workbox.routing.registerRoute(
     new RegExp('https://api\.n-a\.date/(.*)'),
