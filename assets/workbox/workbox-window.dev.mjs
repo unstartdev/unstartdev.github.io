@@ -1,5 +1,5 @@
 try {
-  self['workbox:window:4.0.0-rc.3'] && _();
+  self['workbox:window:4.1.0'] && _();
 } catch (e) {} // eslint-disable-line
 
 /*
@@ -36,7 +36,7 @@ const messageSW = (sw, data) => {
 };
 
 try {
-  self['workbox:core:4.0.0-rc.3'] && _();
+  self['workbox:core:4.1.0'] && _();
 } catch (e) {} // eslint-disable-line
 
 /*
@@ -451,7 +451,9 @@ class Workbox extends EventTargetShim {
 
 
   async getSW() {
-    return this._swDeferred.promise;
+    // If `this._sw` is set, resolve with that as we want `getSW()` to
+    // return the correct (new) service worker if an update is found.
+    return this._sw || this._swDeferred.promise;
   }
   /**
    * Sends the passed data object to the service worker registered by this
@@ -681,7 +683,9 @@ class Workbox extends EventTargetShim {
           break;
 
         case 'redundant':
-          if (!isExternal) {
+          if (sw === this._compatibleControllingSW) {
+            logger.log('Previously controlling service worker now redundant!');
+          } else if (!isExternal) {
             logger.log('Registered service worker now redundant!');
           }
 

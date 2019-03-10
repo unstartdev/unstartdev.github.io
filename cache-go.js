@@ -1,4 +1,4 @@
-importScripts("https://n-a.date/assets/workbox/workbox-sw.js?v=4.00-rc3");
+importScripts("https://n-a.date/assets/workbox/workbox-sw.js?v=4.1.0");
 workbox.setConfig({
     modulePathPrefix: '/assets/workbox/'
 });
