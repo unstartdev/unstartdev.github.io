@@ -31,11 +31,11 @@ categories: log
 
 {% highlight js %}
 <script>
-    function callbackFunction(result, methodName)
+    function callbackFunction(result) //callbackFunction换成你定义的名称
     {
-      document.getElementById("cut").innerHTML = data.content;
-      document.getElementById("translate").innerHTML = data.translate;
-      document.getElementById("from").innerHTML = data.from;
+      document.getElementById("cut").innerHTML = result.content;
+      document.getElementById("translate").innerHTML = result.translate;
+      document.getElementById("from").innerHTML = result.from;
     }
 </script>
 <script src="https://api.n-a.date/random-cuts.php?jsonpcallback=callbackFunction"></script>
