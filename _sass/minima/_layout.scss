@@ -207,9 +207,16 @@
   @include relative-font-size(1.5);
 }
 
+.post-categories {
+  padding: 0px 2px 0px 0px;
+}
+
+.post-tags {
+  padding: 0px 2px 0px 0px;
+}
 
 
-/**
+/** 
  * Posts
  */
 .post-header {

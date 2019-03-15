@@ -2,7 +2,8 @@
 layout: post
 title: Vultr亚洲机房对比
 date: 2018-08-30 18:29:56 +0800
-categories: VPS
+categories: 
+- VPS
 ---
 Emmm...好一轮没有更新过博客了，来诈尸一回
 

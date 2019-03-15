@@ -9,10 +9,22 @@ layout: default
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
-      </time>
+      </time></br>
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+      {%- endif -%}
+      {%- if page.categories -%}
+      {%- for category in page.categories -%}
+      <span><a class="post-categories" href="{{ "/categories.html" | relative_url }}#{{ category }}">{{ category }}</a></span>
+      {%- endfor -%}
+    </br>
+      {%- endif -%}
+      {%- if page.tags -%}
+      {%- for tag in page.tags -%}
+      <span><a class="post-tags" href="{{ "tags.html" | relative_url}}#{{ tag }}">{{ tag }}</a></span>
+      {%- endfor -%}
+      {%- endif -%}
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
