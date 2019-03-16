@@ -32,6 +32,7 @@ valine:
   placeholder: 'Touch Me!'
   avatar: 'mm'
 
+google_analytics: UA-110545039-1
 # Build settings
 lang: zh
 markdown: kramdown
