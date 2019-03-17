@@ -7,19 +7,19 @@ workbox.routing.registerRoute(
     new workbox.strategies.CacheFirst()
 );
 workbox.routing.registerRoute(
-    new RegExp('https:\/\/i\.loli\.net\/(.*)'),
+    new RegExp('https:\/\/i\.loli\.net\/.*'),
     new workbox.strategies.CacheFirst({
         cacheName: 'image-cache',
     })
 );
 workbox.routing.registerRoute(
-    new RegExp('https:\/\/ooo\.0o0\.ooo\/(.*)'),
+    new RegExp('https:\/\/ooo\.0o0\.ooo\/.*'),
     new workbox.strategies.CacheFirst({
         cacheName: 'image-cache',
     })
 );
 workbox.routing.registerRoute(
-    new RegExp('https:\/\/cdn\.jsdelivr\.net\/(.*)'),
+    new RegExp('https:\/\/cdn\.jsdelivr\.net\/.*'),
     new workbox.strategies.CacheFirst()
 );
 workbox.routing.registerRoute(
@@ -27,19 +27,19 @@ workbox.routing.registerRoute(
     new workbox.strategies.CacheFirst()
 );
 workbox.routing.registerRoute(
-    new RegExp('https:\/\/cdnjs\.cloudflare\.com\/(.*)'),
+    new RegExp('https:\/\/cdnjs\.cloudflare\.com\/.*'),
     new workbox.strategies.CacheFirst()
 )
 workbox.routing.registerRoute(
-    new RegExp('https:\/\/fonts\.googleapis\.com\/(.*)'),
+    new RegExp('https:\/\/fonts\.googleapis\.com\/.*'),
     new workbox.strategies.CacheFirst()
 );
 workbox.routing.registerRoute(
-    new RegExp('https:\/\/fonts\.gstatic\.com\/(.*)'),
+    new RegExp('https:\/\/fonts\.gstatic\.com\/.*'),
     new workbox.strategies.CacheFirst()
 );
 workbox.routing.registerRoute(
-    new RegExp('https:\/\/us-api\.leancloud\.cn\/(.*)'),
+    new RegExp('https:\/\/us-api\.leancloud\.cn\/.*'),
     new workbox.strategies.NetworkOnly()
 );
 workbox.routing.registerRoute(
@@ -55,7 +55,7 @@ workbox.routing.registerRoute(
     new workbox.strategies.StaleWhileRevalidate()
 );
 workbox.routing.registerRoute(
-    new RegExp('https:\/\/api\.n-a\.date/(.*)'),
+    new RegExp('https:\/\/api\.n-a\.date/.*'),
     new workbox.strategies.NetworkOnly()
 );
 workbox.routing.registerRoute(
