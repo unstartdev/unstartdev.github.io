@@ -8,15 +8,11 @@ workbox.routing.registerRoute(
 );
 workbox.routing.registerRoute(
     new RegExp('https:\/\/i\.loli\.net\/.*'),
-    new workbox.strategies.CacheFirst({
-        cacheName: 'image-cache',
-    })
+    new workbox.strategies.CacheFirst()
 );
 workbox.routing.registerRoute(
     new RegExp('https:\/\/ooo\.0o0\.ooo\/.*'),
-    new workbox.strategies.CacheFirst({
-        cacheName: 'image-cache',
-    })
+    new workbox.strategies.CacheFirst()
 );
 workbox.routing.registerRoute(
     new RegExp('https:\/\/cdn\.jsdelivr\.net\/.*'),
