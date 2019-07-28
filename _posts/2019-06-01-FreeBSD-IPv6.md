@@ -14,7 +14,7 @@ categories: 瞎搞
   DNS: 2620:fe::fe
   网卡: vtnet0
 
-Anyway, 我们先打开`/etc/rc.conf`(用你喜欢的编辑器)
+Anyway, 我们先打开`/etc/rc.conf`
 
 加入:
 ```
