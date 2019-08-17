@@ -39,10 +39,6 @@ workbox.routing.registerRoute(
     new workbox.strategies.NetworkOnly()
 );
 workbox.routing.registerRoute(
-    new RegExp('.+\.html$'),
-    new workbox.strategies.NetworkFirst()
-);
-workbox.routing.registerRoute(
     new RegExp('.+loadjs\.min\.js'),
     new workbox.strategies.CacheFirst()
 );
