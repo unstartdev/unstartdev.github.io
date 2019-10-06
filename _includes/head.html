@@ -14,7 +14,7 @@
   <style>
     pre, code { font-family: Consolas, Monaco, "Source Code Pro", monospace;}
   </style>
-  <script src="{{ "/assets/loadjs.min.js" | relative_url }}" integrity="sha256-WPCHCPctJWphyhEourNIEYJPZRMDkh6/ZVWM4WJu04w=" crossorigin="anonymous"></script>
+  <script src="{{ "/assets/loadjs.min.js" | relative_url }}" integrity="sha256-WPCHCPctJWphyhEourNIEYJPZRMDkh6/ZVWM4WJu04w=" crossorigin="anonymous" async></script>
   <script>
     loadjs(['https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML', {%- if jekyll.environment == 'production' and site.google_analytics -%}'https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}'{%- endif -%}, {%- if jekyll.environment == 'production' and site.valine.enabled and page.layout == 'post' -%}'https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js', {%- endif -%}'https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.min.js'], function() {
   {%- if jekyll.environment == 'production' and site.valine.enabled and page.layout == 'post' -%}
