@@ -14,35 +14,4 @@
   <style>
     pre, code { font-family: Consolas, Monaco, "Source Code Pro", monospace;}
   </style>
-  <script>
-  {%- if jekyll.environment == 'production' and site.valine.enabled and page.layout == 'post' -%}
-      new Valine({
-        el: '#comment' ,
-        notify:{{ site.valine.notify }}, 
-        verify:{{ site.valine.verify }}, 
-        appId: '{{ site.valine.appid }}',
-        appKey: '{{ site.valine.appkey }}',
-        placeholder: '{{ site.valine.placeholder }}',
-        path:window.location.pathname, 
-        avatar:'{{ site.valine.avatar }}',
-      });
-  {%- endif -%}
-  {%- if site.google_analytics -%}
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '{{ site.google_analytics }}');
-  {%- endif -%}
-
-    WebFont.load({
-      google: {
-        families: ['Source Code Pro']
-      }
-    });
-    $.getJSON("https://api.n-a.date/random-cuts.php?jsonpcallback=?", function(data)
-    {
-      document.getElementById("cut").innerHTML = data.content;
-      document.getElementById("from").innerHTML = "——" + data.from;
-    });
-  </script>
 </head>
