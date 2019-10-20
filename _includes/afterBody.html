@@ -31,12 +31,6 @@
         }
       });
     });
-
-      $.getJSON("https://api.n-a.date/random-cuts.php?jsonpcallback=?", function(data)
-      {
-        document.getElementById("cut").innerHTML = data.content;
-        document.getElementById("from").innerHTML = "——" + data.from;
-      }); 
     });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
