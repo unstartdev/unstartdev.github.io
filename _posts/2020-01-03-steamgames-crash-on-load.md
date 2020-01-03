@@ -75,6 +75,6 @@ categories: 瞎搞
 
 查阅到的原因是因为linux内核中的`radeon`模块所使用的是DRM 2.*，无法满足`vulkandriverquery`的要求，那怎么办啊，我这可是老显卡<sub>(R9 270 Southern Island)</sub>，又是一波猛如虎的操作，我将目光投向了那边实验性支持SI<sub>指Sounthern Island</sub>的`amdgpu`驱动<sub>或者可以索性将vulkan全套东西删掉？没试过</sub>
 
-ArchWiki上有指南，我就不造轮子了  [传送门->"https://wiki.archlinux.org/index.php/AMDGPU#Enable_Southern_Islands_(SI)_and_Sea_Islands_(CIK)_support"](https://wiki.archlinux.org/index.php/AMDGPU#Enable_Southern_Islands_(SI)_and_Sea_Islands_(CIK)_support)
+ArchWiki上有指南，我就不造轮子了  [传送门](https://wiki.archlinux.org/index.php/AMDGPU#Enable_Southern_Islands_(SI)_and_Sea_Islands_(CIK)_support)
 
 最后完美运行ExcellenXD!
