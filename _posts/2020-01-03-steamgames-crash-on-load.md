@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [修补]Steam游戏在linux上炸了？
+title: 修补-Steam游戏在linux上炸了？
 date: 2020-01-03 18:12:42 +0800
 categories: 瞎搞
 ---
