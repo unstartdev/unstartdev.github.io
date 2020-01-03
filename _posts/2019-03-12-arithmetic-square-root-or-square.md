@@ -7,7 +7,7 @@ categories: 课后瞎聊
 
 ## 算术平方根
 
-若$$x^2 = a (a \geqslant x)$$,则x为a的算术平方根
+若$$x^2 = a$$,则x为a的算术平方根
 
 此时x可记作$$\sqrt a$$
 
