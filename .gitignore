@@ -6,3 +6,4 @@ nohup.out
 vendor
 Gemfile.lock
 .bundle
+new.sh
