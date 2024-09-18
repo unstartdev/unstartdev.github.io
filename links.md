@@ -7,7 +7,7 @@ permalink: /links/
 
 #### 追梦人博客: [dream.ren](https://dream.ren)
 
-#### 黎明余光: [blog.lim-light.com](https://blog.lim-light.com)
+#### 黎明余光: [idawnlight.com](https://idawnlight.com)
 
 #### QAQ论坛: [roms.galent.top](https://roms.galent.top)
 
