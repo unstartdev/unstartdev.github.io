@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: UNKNOWN date
-email: admin(#)edu.n-a.date
+title: UNKNOWN
+email: admin(#)unstartdev.eu.org
 description: >- # this means to ignore newlines until "baseurl:"
   Helowww~
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -23,7 +23,7 @@ url: "https://n-a.date" # the base hostname & protocol for your site, e.g. http:
 github_username: unstartdev
 timezone: Asia/Shanghai
 valine:
-  enabled: true
+  enabled: false
   appid: '27C1J8NnDsg7TJDXn03efOkb-MdYXbMMI'
   appkey: '3KLNAxfjACc8yPYzDsGDvxTU'
   region: 'us'

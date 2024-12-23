@@ -3,6 +3,19 @@ layout: page
 title: Timeline
 permalink: /timeline/
 ---
+
+# 2024 —— 诈尸级更新
+
+## Dec
+
+### 23th
+
+经过高中三年摧残，目前就读于华南某大学。可能、大概有时间来重新管管blog了。
+
+- 域名涨价涨得好厉害(╯‵□′)╯︵┻━┻屈居[eu.org](eu.org)
+
+- 托管于[Github Pages](github.io) & [Cloudflare](cloudflare.com)
+
 # * 2018 & 全新开始
 
 ## June
