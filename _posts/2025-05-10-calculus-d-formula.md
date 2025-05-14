@@ -60,7 +60,7 @@ $$ y = C_1 e^{r_1 x} + C_2 e^{r_2 x} $$
 
 设 $ y_2(x) = u(x) e^{rx} $ 其中u(x)待定且不为常数.
 
-解$ L[y_2] = L[u(x) e^{rx}] $ 得 $ u''=0 $，此时不妨取 $ u(x) = x $ ，即得 $ y_2 = xe^{rx} $
+解$ L[y_2] = L[u(x) e^{rx}] $ 得 $ u'' = 0 $，此时不妨取 $ u(x) = x $ ，即得 $ y_2 = xe^{rx} $
 
 故方程(*)的通解为
 $$ y_1 = (C_1 + C_2 x)e^{rx} $$
@@ -226,4 +226,4 @@ $$ \frac{du}{dx} = P(x)u^2 + [2P(x)\phi (x) + Q(x)]u $$
 
 $$ \frac{dy}{dx} = p, \frac{d^2y}{dx^2} = \frac{dp}{dy}\bullet\frac{dy}{dx} =p\frac{dp}{dy} $$
 
-例子. $ yy''-y'^2=0 $
+例子. $ yy'' - y'^2=0 $
