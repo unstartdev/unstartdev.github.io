@@ -251,7 +251,7 @@ $$ \frac{\mathrm{d}u}{\mathrm{d}x} = P(x)u^2 + [2P(x)\phi (x) + Q(x)]u $$
 
 做代换 $ p = y^\prime $
 
-例子. $ y^{\prime \prime} + 2xy^\prime^2 =0 $
+例子. $ y^{\prime \prime} + 2xy^{\prime 2} =0 $
 
 #### $ y^{\prime \prime} = f(y, y^\prime) $ 型
 
@@ -259,4 +259,4 @@ $$ \frac{\mathrm{d}u}{\mathrm{d}x} = P(x)u^2 + [2P(x)\phi (x) + Q(x)]u $$
 
 $$ \frac{\mathrm{d}y}{\mathrm{d}x} = p, \frac{\mathrm{d}^2y}{\mathrm{d}x^2} = \frac{\mathrm{d}p}{\mathrm{d}y}\bullet\frac{\mathrm{d}y}{\mathrm{d}x} =p\frac{\mathrm{d}p}{\mathrm{d}y} $$
 
-例子. $ yy^{\prime \prime} - y^{\prime}^2=0 $
+例子. $ yy^{\prime \prime} - y^{\prime 2}=0 $
