@@ -54,39 +54,39 @@ $r_1$ 和 $r_2$ 即为方程(*)的特征根
 
 1. 特征根为两实根
 
-$$ y_1 = \mathrm{e}^{r_1 x}, y_2 = \mathrm{e}^{r_2 x} $$
+    $$ y_1 = \mathrm{e}^{r_1 x}, y_2 = \mathrm{e}^{r_2 x} $$
 
-$$ y = C_1 \mathrm{e}^{r_1 x} + C_2 \mathrm{e}^{r_2 x} $$
+    $$ y = C_1 \mathrm{e}^{r_1 x} + C_2 \mathrm{e}^{r_2 x} $$
 
 2. 一个二重特征根
 
-特征根 $ r = r_1 = r_2 $
+    特征根 $ r = r_1 = r_2 $
 
-由特征根得一特解 $ y_1 = \mathrm{e}^{rx} $
+    由特征根得一特解 $ y_1 = \mathrm{e}^{rx} $
 
-设 $ y_2(x) = u(x) \mathrm{e}^{rx} $ 其中u(x)待定且不为常数.
+    设 $ y_2(x) = u(x) \mathrm{e}^{rx} $ 其中u(x)待定且不为常数.
 
-解 $ L[y_2] = L[u(x) \mathrm{e}^{rx}] $ 得 $ u'' = 0 $，此时不妨取 $ u(x) = x $ ，即得 $ y_2 = xe^{rx} $
+    解 $ L[y_2] = L[u(x) \mathrm{e}^{rx}] $ 得 $ u'' = 0 $，此时不妨取 $ u(x) = x $ ，即得 $ y_2 = xe^{rx} $
 
-故方程(*)的通解为
+    故方程(*)的通解为
 
-$$ y_1 = (C_1 + C_2 x)\mathrm{e}^{rx} $$
+    $$ y_1 = (C_1 + C_2 x)\mathrm{e}^{rx} $$
 
 3. 一对共轭复根
 
-显然若特征方程没有实根，那么一定有一堆共轭复根。
+    显然若特征方程没有实根，那么一定有一堆共轭复根。
 
-不妨设 $ r_1 = \alpha + \mathrm{i} \beta, r_2 = \alpha - \mathrm{i} \beta $ ，按照上面的做法得
+    不妨设 $ r_1 = \alpha + \mathrm{i} \beta, r_2 = \alpha - \mathrm{i} \beta $ ，按照上面的做法得
 
-$$ y_1= e^{(\alpha + \mathrm{i} \beta)x}=\mathrm{e}^{\alpha x}(\cos \beta x + \mathrm{i} \sin \beta x),\\ y_2= \mathrm{e}^{(\alpha - \mathrm{i} \beta)x}=\mathrm{e}^{\alpha x}{(\cos \beta x - \mathrm{i} \sin \beta x)} $$
+    $$ y_1= e^{(\alpha + \mathrm{i} \beta)x}=\mathrm{e}^{\alpha x}(\cos \beta x + \mathrm{i} \sin \beta x),\\ y_2= \mathrm{e}^{(\alpha - \mathrm{i} \beta)x}=\mathrm{e}^{\alpha x}{(\cos \beta x - \mathrm{i} \sin \beta x)} $$
 
-利用线性叠加原理1可将含有虚数i的特解转为实值解
+    利用线性叠加原理1可将含有虚数i的特解转为实值解
 
-$$ \tilde{y_1} = \frac{1}{2} (y_1 + y_2) = \mathrm{e}^{\alpha x}\cos \beta x, \\ $$
-$$ \tilde{y_2} = \frac{1}{2i} (y_1 - y_2) = \mathrm{e}^{\alpha x} \sin \beta x $$
+    $$ \tilde{y_1} = \frac{1}{2} (y_1 + y_2) = \mathrm{e}^{\alpha x}\cos \beta x, \\ $$
+    $$ \tilde{y_2} = \frac{1}{2\mathrm{i}} (y_1 - y_2) = \mathrm{e}^{\alpha x} \sin \beta x $$
 
-即得通解
-$$ y = C_1\mathrm{e}^{\alpha x}\cos \beta x + C_2\mathrm{e}^{\alpha x}\sin \beta x $$
+    即得通解
+    $$ y = C_1\mathrm{e}^{\alpha x}\cos \beta x + C_2\mathrm{e}^{\alpha x}\sin \beta x $$
 
 #### 拓展到n阶常系数线性齐次微分方程
 
@@ -98,20 +98,20 @@ $$ r^n+a_1r^{n-1}+...+a_{n-a}r+a_n=0 $$
 
 1. 特征单根r对应一个特解
 
-$$ \mathrm{e}^{rx} $$
+    $$ \mathrm{e}^{rx} $$
 
 2. k重实特征根对应k个线性无关的特解
 
-$$ \mathrm{e}^{rx}, x\mathrm{e}^{rx}, x^2\mathrm{e}^{rx}, ..., x^{k-1}\mathrm{e}^{rx} $$
+    $$ \mathrm{e}^{rx}, x\mathrm{e}^{rx}, x^2\mathrm{e}^{rx}, ..., x^{k-1}\mathrm{e}^{rx} $$
 
 3. 每对单重共轭复根 $\alpha \pm i \beta$ 对应一对特解
 
-$$ \mathrm{e}^{\alpha x}\cos \beta x, \mathrm{e}^{\alpha x}\sin \beta x $$
+    $$ \mathrm{e}^{\alpha x}\cos \beta x, \mathrm{e}^{\alpha x}\sin \beta x $$
 
 4. 每对k重共轭复根 $\alpha \pm i \beta$ 对应k对线性无关特解
 
-$$ \mathrm{e}^{\alpha x}\cos \beta x, x\mathrm{e}^{\alpha x}\cos \beta x, ..., x^{k-1}\mathrm{e}^{\alpha x}\cos \beta x $$
-$$ \mathrm{e}^{\alpha x}\sin \beta x, x\mathrm{e}^{\alpha x}\sin \beta x, ..., x^{k-1}\mathrm{e}^{\alpha x}\sin \beta x $$
+    $$ \mathrm{e}^{\alpha x}\cos \beta x, x\mathrm{e}^{\alpha x}\cos \beta x, ..., x^{k-1}\mathrm{e}^{\alpha x}\cos \beta x $$
+    $$ \mathrm{e}^{\alpha x}\sin \beta x, x\mathrm{e}^{\alpha x}\sin \beta x, ..., x^{k-1}\mathrm{e}^{\alpha x}\sin \beta x $$
 
 以上所有特解都线性无关（证明略去）
 
