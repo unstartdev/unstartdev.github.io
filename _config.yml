@@ -18,21 +18,12 @@ email: admin(#)unstartdev.eu.org
 description: >- # this means to ignore newlines until "baseurl:"
   Helowww~
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://n-a.date" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://unstartdev.eu.org" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: NONE
 github_username: unstartdev
 timezone: Asia/Shanghai
-valine:
-  enabled: false
-  appid: '27C1J8NnDsg7TJDXn03efOkb-MdYXbMMI'
-  appkey: '3KLNAxfjACc8yPYzDsGDvxTU'
-  region: 'us'
-  notify: 'true'
-  verify: 'true'
-  placeholder: 'Touch Me!'
-  avatar: 'mm'
 
-google_analytics: UA-110545039-1
+#google_analytics: UA-110545039-1
 # Build settings
 lang: zh
 markdown: kramdown
@@ -44,7 +35,6 @@ plugins:
 
 paginate: 8
 paginate_path: "/page:num/"
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
