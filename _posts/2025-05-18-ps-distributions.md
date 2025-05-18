@@ -7,6 +7,7 @@ tags:
 - Probability and Statistics
 ---
 
+* toc
 {:toc}
 
 # 前置
@@ -361,3 +362,4 @@ $$ f_Z(z) = \begin{cases}
 \frac{\Gamma(\frac{m+n}{2})}{\Gamma(\frac{m}{2})\Gamma(\frac{n}{2})}m^{m/2}n^{n/2}\frac{x^{\frac{m}{2}-1}}{(mx+n)^{(m+n)/2}}, & x \gt 0, \\
 0, & x \leq 0.
 \end{cases}
+$$
