@@ -3,7 +3,7 @@ layout: post
 title: 大学物理III-11.气体动理论
 date: 2025-05-15 19:02:33 +0800
 categories: Learning
-tags: University Physics
+tags: "University Physics"
 ---
 # 引入
 
