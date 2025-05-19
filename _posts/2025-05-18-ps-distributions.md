@@ -233,7 +233,7 @@ E[X]  & = \int_{0}^{\infty} x \cdot \lambda \mathrm{e}^{-\lambda x}\mathrm{d}x \
 
 #### 方差
 
-$$ Var[X] = \frac{2}{\lambda^2} $$
+$$ Var[X] = E[X^2] - E^2[X] = \frac{2}{\lambda^2} - \left(\frac{1}{\lambda}\right)^2 = \frac{1}{\lambda^2} $$
 
 求$E[X^2]$的过程与求$E[X]$的过程几乎相同
 
