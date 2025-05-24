@@ -67,11 +67,11 @@ $$ \vec{r}_u = \vec{i} + \frac{\partial h}{\partial u}\vec{k} $$
 
 $$ \vec{r}_v = \vec{j} + \frac{\partial h}{\partial v}\vec{k} $$
 
-$$ \vec{r}_u \times \vec{r}_v = \frac{\partial h}{\partial u} \vec{i} - \frac{\partial h}{\partial v}\vec{j} + \vec{k} $$
+$$ \vec{r}_u \times \vec{r}_v = -\frac{\partial h}{\partial u} \vec{i} - \frac{\partial h}{\partial v}\vec{j} + \vec{k} $$
 
 又由于 $ \dfrac{\partial h}{\partial u} = -\dfrac{F_x}{F_z}, \dfrac{\partial h}{\partial v} = -\dfrac{F_y}{F_z} $，所以
 
-$$ \vec{r} \times \vec{r}_v = \frac{\nabla F}{F_z} = \frac{\nabla F}{\nabla F \cdot \vec{k}} $$
+$$ \vec{r}_u \times \vec{r}_v = \frac{\nabla F}{F_z} = \frac{\nabla F}{\nabla F \cdot \vec{k}} $$
 
 所以曲面的面积即为
 
