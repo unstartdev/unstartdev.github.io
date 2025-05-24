@@ -16,7 +16,7 @@ categories: Learning
 
 对于用参数向量形式表示的曲面 $ \vec{r}(u,v) = f(u,v)\vec{i} + g(u,v)\vec{j} $
 
-它的单位法向量有两个方向 $ \pm \dfrac{\vec{r}_u \times \vec{r}_v}{|\vec{r}_u \times \vec{r}_v|} $
+它的单位法向量有两个方向 $ \pm \dfrac{\vec{r}_u \times \vec{r}_v}{\|\vec{r}_u \times \vec{r}_v\|} $
 
 可以指定其中的任意一个方向作为正方向，则另一个方向为负方向
 
@@ -24,7 +24,7 @@ categories: Learning
 
 # 流量微元
 
-在单位时间内通过曲面 $U$ 的流量即为以 $S$ 为底，$|\vec{v}|$ 为斜高的斜柱体的体积
+在单位时间内通过曲面 $U$ 的流量即为以 $S$ 为底，$\|\vec{v}\|$ 为斜高的斜柱体的体积
 
 $$ \Delta q \approx |\vec{v}|\cos <\vec{v}, \vec{e}_n> \Delta S $$
 
