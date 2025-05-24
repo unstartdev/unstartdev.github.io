@@ -57,17 +57,17 @@ $$ S = \iint_{\mathbb{R}} \mathrm{d}\sigma = \iint_{\mathbb{R}} |\vec{r}_u \time
 
 ### 隐式曲面
 
-对于隐式曲面 $ F(x, y, z) = c $，由隐函数存在定理可设 $ z = h(x, y) $，得到其参数向量形式 $ \vec{r}(x,y) = u\vec{i} + v\vec{j} + h(u,v)\vec{k} $
+对于隐式曲面 $ F(x, y, z) = c $，由隐函数存在定理可设 $ z = h(x, y) $，得到其参数向量形式 $ \vec{r}(u,v) = u\vec{i} + v\vec{j} + h(u,v)\vec{k} $
 
 不妨设曲面的投影面在 $xy$ 平面上
 
 于是 
 
-$$ \vec{r}_u = \vec{i} + \frac{\partial h}{\partial u}\vec{k} $$
+$$ \vec{r}_u = \vec{i} + \dfrac{\partial h}{\partial u}\vec{k} $$
 
-$$ \vec{r}_v = \vec{j} + \frac{\partial h}{\partial v}\vec{k} $$
+$$ \vec{r}_v = \vec{j} + \dfrac{\partial h}{\partial v}\vec{k} $$
 
-$$ \vec{r}_u \times \vec{r}_v = -\frac{\partial h}{\partial u} \vec{i} - \frac{\partial h}{\partial v}\vec{j} + \vec{k} $$
+$$ \vec{r}_u \times \vec{r}_v = -\dfrac{\partial h}{\partial u} \vec{i} - \dfrac{\partial h}{\partial v}\vec{j} + \vec{k} $$
 
 又由于 $ \dfrac{\partial h}{\partial u} = -\dfrac{F_x}{F_z}, \dfrac{\partial h}{\partial v} = -\dfrac{F_y}{F_z} $，所以
 
