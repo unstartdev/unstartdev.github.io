@@ -53,11 +53,11 @@ $$ h(M) = \lim_{\Delta S \to M} \frac{\oint_{\Delta L} \vec{F} \cdot \mathrm{d} 
 
 在平面上取一个小矩形区域其长和宽分别为 $\Delta x$,$\Delta y$
 
-其上边缘和下边缘对环流的贡献
+其上边缘和下边缘对环量的贡献
 
 $$ \vec{F}(x, y+\Delta y) \cdot (-\vec{i}) \Delta x - \vec{F}(x, y) \cdot \vec{i} \Delta x = -[P(x,y+\Delta y) - P(x, y)]\Delta x \approx -\frac{\partial P}{\partial y}\Delta y\Delta x $$
 
-其左边缘和右边缘对环流的贡献
+其左边缘和右边缘对环量的贡献
 
 $$ \vec{F}(x + \Delta x, y) \cdot \vec{j} \Delta y + \vec{F}(x, y) \cdot \vec{j} \Delta y = [Q(x + \Delta x, y) + Q(x, y)]\Delta y \approx \frac{\partial Q}{\partial x}\Delta x\Delta y $$
 
