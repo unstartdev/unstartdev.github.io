@@ -3,6 +3,8 @@ layout: post
 title: 工科数学分析-第二类曲面积分
 date: 2025-05-24 13:18:59 +0800
 categories: Learning
+tags:
+- calculus
 ---
 # 背景
 
