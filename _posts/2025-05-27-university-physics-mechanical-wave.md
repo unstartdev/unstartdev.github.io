@@ -64,7 +64,7 @@ $$ \tau = \frac{F}{S} $$
 
 $$ \tau = \frac{F}{S} = G \gamma $$
 
-其中 $G$ 称为切变模量
+其中 $G$ 称为**切变模量**
 
 ### 容积形变（体积模量）
 
@@ -82,7 +82,7 @@ $$ \theta = \frac{\Delta V}{V_0} = \frac{V - V_0}{V_0} $$
 
 $$ p = -K \theta $$
 
-其中 $K$ 称为体积模量
+其中 $K$ 称为**体积模量**
 
 ### 各模量与波速的关系
 
@@ -117,7 +117,7 @@ $$ y_{x_0}(t) = A\cos(\omega t + \varphi) $$
 
 得到这列波的波函数
 
-$$ y(x, t) = A\cos\left[\omega\left(t \mp \frac{x-x_0}{u} + \right)\varphi\right] $$
+$$ y(x, t) = A\cos\left[\omega\left(t \mp \frac{x-x_0}{u} \right) + \varphi\right] $$
 
 其中，选取减号则对应波沿 $x$ 轴的正方向传播，选取加号则对应波沿 $x$ 轴的负方向传播。
 
