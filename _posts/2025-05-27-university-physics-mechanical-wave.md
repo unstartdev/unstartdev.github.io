@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 大学物理III-7.1-7.3机械波和机械波的能量
+title: 大学物理III-7机械波
 date: 2025-05-27 15:00:53 +0800
 categories: Learning
 tags:
@@ -20,7 +20,7 @@ tags:
 |振幅| $A$ | $\mathrm{m}$ |
 |角频率| $\omega$ | $\mathrm{rad\cdot s^{-1}}$ |
 
-# 公式
+# 公式 & 理论
 
 ## 波长、波速和周期间的关系
 
@@ -195,3 +195,53 @@ $$ \bar{P}=\bar{w}uS $$
 垂直通过单位面积的平均能流叫做能流密度
 
 $$ I = \frac{\bar{P}}{S} $$
+
+## 惠更斯原理
+
+波阵面上的没一点都可以看成是发射子波的波源,在其后的任意一个时刻,这些子波的包络面就形成一个新的波阵面.
+
+### 折射定律
+
+$$ n_1\sin i = n_2\sin \gamma $$
+
+## 波的干涉 (P189)
+
+两列波在 $P$ 点处的相位差
+
+$$ y_1 = A_1 \cos \left(\omega t - \frac{2\pi r_1}{\lambda} + \varphi_1) $$
+
+$$ y_2 = A_2 \cos \left(\omega t - \frac{2\pi r_2}{\lambda} + \variphi_2) $$
+
+$$ \Delta \varphi = \frac{2\pi}{\lambda}(r_2-r_1)+(\varphi_1-\varphi_2) $$
+
+当 $\Delta \varphi$ 为 $2\pi$ 的整数倍时,合成振动的振幅最大, $A_max=A_1+A_2$ ,两分振动相互加强
+
+当 $\Delta \varphi$ 为 $\pi$ 的整数倍时,合成振动的振幅最小, $A_min=\|A_1 - A_2 \|$ ,两分振动相互减弱
+
+特别地，当 $\varphi_1 = \varphi_2$ ,上述条件可简化为
+
+$$ r_2-r_1=\pm k\lambda $$
+
+时振动相互加强
+
+$$ r_2-r_1=\pm(2k+1)\frac{\lambda}{2} $$
+
+时振动相互减弱
+
+## 驻波
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=56657153&bvid=BV1nx411o7HY&cid=98981345&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+两列振幅相同的相干波相向传播时叠加而成的波叫作驻波
+
+设这两列波为
+
+$$ y_1(x,t) = A\cos\left(\omega t-\omega\frac{x}{u}\right) $$
+
+$$ y_2(x,t) = A\cos\left(\omega t - \omega\frac{x}{u}\right) $$
+
+应用和差化积公式
+
+$$ \cos A + \cos B = \cos\left(\frac{A+B}{2} + \frac{A-B}{2}\right) + \cos\left(\frac{A+B}{2} - \frac{A-B}{2}\right) = 2\cos\frac{A+B}{2}\cos\frac{A-B}{2} $$
+
+该公式的记忆只要结合
