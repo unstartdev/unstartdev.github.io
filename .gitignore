@@ -7,4 +7,4 @@ vendor
 Gemfile.lock
 .bundle
 .bundle/*
-new.sh
+.vscode
