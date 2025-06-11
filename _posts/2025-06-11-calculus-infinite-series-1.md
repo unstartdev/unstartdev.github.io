@@ -13,7 +13,7 @@ tags:
 
 ## 无穷级数
 
-$$ \sum_{n=1}^inf a_n = a_1 + a_2 + a_3 + \dots + a_n $$
+$$ \sum_{n=1}^\infty a_n = a_1 + a_2 + a_3 + \dots + a_n $$
 
 ## 一般项
 
@@ -21,7 +21,7 @@ $$ \sum_{n=1}^inf a_n = a_1 + a_2 + a_3 + \dots + a_n $$
 
 ## 部分和
 
-$$ S_n = \sum{i=1}^n a_i $$
+$$ S_n = \sum_{i=1}^n a_i $$
 
 ## 收敛
 
