@@ -89,7 +89,7 @@ $$ \int_2^{+\infty} \frac{1}{x\ln^q x} \mathrm{d}x = \int_2^{+\infty} \frac{1}{\
 
 1. $ \sum_{n=1}^\infty \dfrac{1}{n!} $
 
-    $$ \frac{\dfrac{1}{(n+1)!}}{\dfrac{1}{n!}}
+    $$ \frac{\dfrac{1}{(n+1)!}}{\dfrac{1}{n!}} $$
 
 ## 柯西根值判别法
 
@@ -100,8 +100,8 @@ $$ \int_2^{+\infty} \frac{1}{x\ln^q x} \mathrm{d}x = \int_2^{+\infty} \frac{1}{\
 #### 例子与摘要
 
 1. $ \sum_{n=1}^\infty \dfrac{1}{(\ln n)^n} $
+
     $$ \lim_{n \to \infty} \sqrt[n]{\frac{1}{(\ln n)^n}} = \lim_{n \to \infty} \frac{1}{\ln n} = 0 \lt 1 $$
-2. 
 
 ## Raabe 判别法
 
