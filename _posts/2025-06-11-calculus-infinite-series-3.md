@@ -27,11 +27,11 @@ $$ \sum_{n=1}^\infty (-1)^{(n-1)}a_n = a_1 - a_2 + a_3 - a_4 + \cdots $$
 
 ## 绝对收敛
 
-若 $\sum_{n=1}^\infty a_n$ 收敛，则 $\sum_{n=1}^\infty |a_n|$ 也收敛，则 $\sum_{n=1}^\infty a_n$ 称为绝对收敛级数.
+若 $\sum_{n=1}^\infty a_n$ 收敛，则 $\sum_{n=1}^\infty \|a_n\|$ 也收敛，则 $\sum_{n=1}^\infty a_n$ 称为绝对收敛级数.
 
 ### 定理: 绝对收敛级数必收敛
 
-**定理：** 若 $\sum_{n=1}^\infty |a_n|$ 收敛，则 $\sum_{n=1}^\infty a_n$ 也收敛
+**定理：** 若 $\sum_{n=1}^\infty \|a_n\|$ 收敛，则 $\sum_{n=1}^\infty a_n$ 也收敛
 
 证明使用绝对值不等式以及柯西准则.
 
@@ -47,7 +47,7 @@ $$ a_n^+ = \begin{cases} a_n, a_n \geq 0; \\ 0, a_n \lt 0 \end{cases} \\ a_n^- =
 
 $$ \sum_{n=1}^\infty a_n = \sum_{n=1}^\infty a_n^+ - \sum_{n=1}^\infty a_n^- $$
 
-证明关键: $\sum_{n=1}^N |a_n| = \sum_{n=1}^N a_n^+ + \sum_{n=1}^N a_n^-$ 推出 $\sum_{n=1}^\infty a_n^-,\, \sum_{n=1}^\infty a_n^+$ 均有界
+证明关键: $\sum_{n=1}^N \|a_n\| = \sum_{n=1}^N a_n^+ + \sum_{n=1}^N a_n^-$ 推出 $\sum_{n=1}^\infty a_n^-,\, \sum_{n=1}^\infty a_n^+$ 均有界
 
 ### 性质
 
@@ -59,7 +59,7 @@ $$ \sum_{n=1}^\infty a_n = \sum_{n=1}^\infty a_n^+ - \sum_{n=1}^\infty a_n^- $$
 
 ## 条件收敛
 
-若 $\sum_{n=1}^\infty a_n$ 收敛，但 $\sum_{n=1}^\infty |a_n|$ 发散，则 $\sum_{n=1}^\infty a_n$ 称为条件收敛级数。
+若 $\sum_{n=1}^\infty a_n$ 收敛，但 $\sum_{n=1}^\infty \|a_n\|$ 发散，则 $\sum_{n=1}^\infty a_n$ 称为条件收敛级数。
 
 如: $\sum_{n=1}^\infty (-1)^n \dfrac{1}{n^\alpha}$
 
