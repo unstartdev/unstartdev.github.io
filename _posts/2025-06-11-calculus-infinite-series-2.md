@@ -25,7 +25,7 @@ $$ \forall n \gt N, b_n \leq a_n \leq c_n $$
 
 (a) 如果 $\sum_{n=1}^\infty c_n$ 收敛，那么 $\sum_{n=1}^\infty a_n$ 也收敛
 
-(b) 如果 $\sum{n=1}^\infty b_n$ 发散，那么 $\sum_{n=1}^\infty a_n$ 也发散
+(b) 如果 $\sum_{n=1}^\infty b_n$ 发散，那么 $\sum_{n=1}^\infty a_n$ 也发散
 
 证明使用不等式进行相乘
 
@@ -73,11 +73,11 @@ $$ \int_2^{+\infty} \frac{1}{x\ln^q x} \mathrm{d}x = \int_2^{+\infty} \frac{1}{\
 
 该积分在 $q > 1$ 时收敛， $q \leq 1$ 时发散，根据积分判别法可知原级数也在 $q \gt 1 $ 时收敛， $q \leq 1$ 时发散
 
-## D'Almbert 判别法
+## D'Alembert 判别法
 
 思想是比较判别法的一种延拓，即将相邻两项的的增长速度与几何级数进行比较
 
-### D'Almbert 判别法的极限形式
+### D'Alembert 判别法的极限形式
 
 设 $ \sum_{n=1}^\infty a_n $ 是正项级数，则
 
@@ -112,6 +112,9 @@ However, 不存在所谓万能的判别法
 # 例子与摘要
 
 1.
+    
     $$ \sum_{n=1}^\infty\left(\frac{1}{\sqrt{n}} - \sqrt{\ln\frac{n+1}{n}}\right) $$
+
 2.
+    
     $$ \sum_{n=1}^\infty\left(n^{\tfrac{1}{n^2+1}} -1\right) $$

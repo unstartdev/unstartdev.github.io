@@ -23,6 +23,7 @@ tags: calculus
 |$ -\dfrac{1}{\sqrt{1-x^2}} $|$ \arccos x + C $|
 |$ \dfrac{1}{\sqrt{x^2+1}} $|$ \sinh^{-1} x + C = \ln(x+\sqrt{x^2+1}) + C$|
 |$ \dfrac{1}{\sqrt{x^2-1}} $|$ \ln(x+\sqrt{x^2-1}) + C$|
+|$ \dfrac{1}{1-x^2} $|$ \dfrac{\ln(1+x) - \ln(1-x)}{2}$|
 
 ## 欧拉公式
 
