@@ -16,21 +16,21 @@ $$ E[\bar{X}] = \mu,\, Var[\bar{X}] = \frac{\sigma^2}{n}, \\ E[S_n^2] = \frac{n-
 
 总体 $ X \sim N(\mu, \sigma^2) $
 
-1. $\bar{X}$ 与 ${S_n^2}$ 相互独立,且
+(1) $\bar{X}$ 与 ${S_n^2}$ 相互独立,且
 
 $$ \bar{X} \sim N\left(\mu, \frac{\sigma^2}{n}\right) $$
 
 $$ \frac{nS_n^2}{\sigma^2} \sim \chi^2(n-1) $$
 
-2. 
+(2) 
 
 $$ \frac{\bar{X} - \mu}{S_n^*}\sqrt{n} = \frac{\bar{X} - \mu}{S_n}\sqrt{n-1} \sim t(n-1) $$
 
-3. 
+(3) 
 
 $$ \frac{\dfrac{m}{m-1}S_{1m}^2 / \sigma_1^2}{\dfrac{n}{n-1}S_{2n}^2 / \sigma_2^2} = \frac{S_{1m}^{*2} / \sigma_2^2}{S_{2n}^{*2} / \sigma_1^2} \sim F(m-1, n-1) $$
 
-4. 
+(4)
 
 $$ \frac{(\bar{X} - \bar{Y}) - (\mu_1 - \mu_2)}{S_\omega \sqrt{\dfrac{1}{m}+\dfrac{1}{n}}} \sim t(m+n-2) $$
 
@@ -42,4 +42,4 @@ $$ S_\omega = \sqrt{\dfrac{mS_{1m}^2 + nS_{2n}^2}{m+n-2}} $$
 
 $$ P(X \leq \phi_\alpha(n)) = \alpha $$
 
-称 $\phi_\alpha(n)$ 为分布 $\phi(n)$ 的 **$\alpha$ 分位数（或分位点）**
+称 $\phi_\alpha(n)$ 为分布 $\phi(n)$ 的 **\alpha
