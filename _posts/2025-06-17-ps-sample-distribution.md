@@ -42,4 +42,4 @@ $$ S_\omega = \sqrt{\dfrac{mS_{1m}^2 + nS_{2n}^2}{m+n-2}} $$
 
 $$ P(X \leq \phi_\alpha(n)) = \alpha $$
 
-称 $\phi_\alpha(n)$ 为分布 $\phi(n)$ 的 **\alpha
+称 $\phi_\alpha(n)$ 为分布 $\phi(n)$ 的 **$\alpha$ 分位数**
