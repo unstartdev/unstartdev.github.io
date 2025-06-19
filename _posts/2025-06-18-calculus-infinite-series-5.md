@@ -50,7 +50,7 @@ $$ R = \begin{cases} \dfrac{1}{\rho}, &\rho \neq 0 \\ +\infty, &\rho = 0 \\ 0, &
 
 # 性质
 
-设幂级数收敛半径 $R gt 0$
+设幂级数收敛半径 $R \gt 0$
 
 ## 阿贝尔第二定理
 
@@ -98,4 +98,4 @@ $$ \left(\sum_{n=0}^\infty a_n x^n\right)\left(\sum_{n=0}^\infty b_n x^n\right) 
 
 $$ \frac{\sum_{n=0}^\infty a_n x^n}{\sum_{n=0}^\infty b_n x^n} = c_0 + c_1 x + \ldots + c_n x^n + \ldots $$
 
-将 $\sum_{n=0}^\infty b_n x^n$ 与 $\sum_{n=0}^\infty c_n x^n$ 相乘,并令成绩中各项的系数分别等于级数 $\sum_{n=0}^\infty a_n x^n$ 中同次幂的系数,由方程组可解出各系数
+将 $\sum_{n=0}^\infty b_n x^n$ 与 $\sum_{n=0}^\infty c_n x^n$ 相乘,并令乘积中各项的系数分别等于级数 $\sum_{n=0}^\infty a_n x^n$ 中同次幂的系数,由方程组可解出各系数
