@@ -42,4 +42,4 @@ $$ \sin x = \sum_{n=0}^\infty \frac{(-1)^n x^{2n+1}}{(2n+1)!}, -\infty \lt x \lt
 
 $$ \cos x = \sum_{n=0}^\infty \frac{(-1)^n x^{2n}}{(2n)!}, -\infty \lt x \lt +\infty $$
 
-$$ (1+x)^p = \sum_{n=0}^\infty C_{p}^n x^n, -1 \lt x \lt 1 $$
+$$ (1+x)^p = \sum_{n=0}^\infty \mathrm{C}_{p}^n x^n, -1 \lt x \lt 1 $$
