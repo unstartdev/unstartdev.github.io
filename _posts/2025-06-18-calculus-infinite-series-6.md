@@ -28,9 +28,9 @@ $$ \exists M, \forall x \in (x_0-R,x_0+R), \forall n \in \mathbb{N}, |f^{(n)}(x)
 
 $$ \frac{1}{1+x} = \sum_{n=0}^\infty (-x)^n = 1 - x + x^2 - x^3 + \ldots + (-1)^n x^n + \ldots, x \in (-1, 1) $$
 
-$$ \sqrt{1+x} = 1 + \frac{1}{2} x + \sum_{n=2}^\infty \frac{(2n-3)!!}{(2n)!!} x^n, x \in [-1, 1] $$
+$$ \sqrt{1+x} = 1 + \frac{1}{2} x + \sum_{n=2}^\infty (-1)^n\frac{(2n-3)!!}{(2n)!!} x^n, x \in [-1, 1] $$
 
-$$ \frac{1}{\sqrt{1+x}} = 1 - \frac{1}{2}x + \sum_{n=2}^\infty \frac{(2n-1)!!}{(2n)!!}x^n, x \in (-1, 1] $$
+$$ \frac{1}{\sqrt{1+x}} = 1 - \frac{1}{2}x + \sum_{n=2}^\infty (-1)^n\frac{(2n-1)!!}{(2n)!!}x^n, x \in (-1, 1] $$
 
 $$ \mathrm{e}^n = \sum_{n=0}^\infty \frac{x^n}{n!}, x \in (-\infty, +\infty) $$
 
