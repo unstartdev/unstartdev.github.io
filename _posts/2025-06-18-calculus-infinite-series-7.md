@@ -6,6 +6,9 @@ categories: Learning
 tags:
 - calculus
 ---
+* toc
+{:toc}
+
 # 三角级数
 
 形如
@@ -18,7 +21,7 @@ $a_0, a_n, b_n$ 称为**系数**,$\omega$称为**圆频率**
 
 ## 函数的内积
 
-定义在 $C[-\pi, \pi]$ 上的两个函数 $f(x)$ 和 $g(x)$ 定义它们的**内积**为
+定义在 $\mathrm{C}[-\pi, \pi]$ 上的两个函数 $f(x)$ 和 $g(x)$ 定义它们的**内积**为
 
 $$ (f(x), g(x)) = \int_{-\pi}^\pi f(x)g(x) \mathrm{d}x $$
 
