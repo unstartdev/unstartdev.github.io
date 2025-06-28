@@ -30,6 +30,8 @@ $$ \int_C \vec{F} \cdot \mathrm{d}\vec{r} = f(B) - f(A) $$
 
 #### 保守场
 
+在**平面单连通区域** $D$ 内,函数 $P,Q$ 在 $D$ 上连续且有连续偏导数
+
 以下命题等价
 
 1. 若 $ C $ 为任意闭曲线，向量场 $ \vec{F} $ 都满足 $ \oint_C \vec{F} \cdot \mathrm{d}\vec{r} = 0 $，则称 $\vec{F}$ 为一保守场
