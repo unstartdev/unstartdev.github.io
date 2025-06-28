@@ -38,6 +38,25 @@ $$ \int_0^{\pi/2} \sin^n x \mathrm{d} x = \int_0^{\pi/2} \cos^n x \mathrm{d} x =
 \dfrac{(n-1)!!}{n!!}, & n = 2k - 1, n \geq 1, n \in \mathbb{N}
 \end{cases} $$
 
+### $\Gamma$ 函数
+
+$$ \Gamma(p) = \int_0^{+\infty} x^{p-1}e^{-x} \mathrm{d}x = 2\int_0^{+\infty} x^{2p-1} e^{-x^2} \mathrm{d}x $$
+
+$$ \Gamma\left(\frac{1}{2}\right) = \sqrt{\pi} $$
+
+$$ \Gamma(p+1) = p\Gamma(p) $$
+
+$$ \Gamma(n) = (n-1)!, n \in \N, n \geq 1 $$
+
+### $\Beta$ 函数
+
+$$ \Beta(p, q) = \int_0^{+\infty} x^{p-1}(1-x)^{q-1} \mathrm{d}x $$
+
+$$ \Beta(p, q) = \frac{\Gamma(p)\Gamma(q)}{\Gamma(p+q)} $$
+
+$$ \Beta(p, 1-p) = \Gamma(p)\Gamma(1-p) = \frac{\pi}{\sin p\pi}, p \in (0, 1) $$
+
+
 # 复习内容
 
 ## 二阶常系数线性微分方程的解法
