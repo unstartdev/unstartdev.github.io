@@ -3,6 +3,8 @@ layout: post
 title: 工科数学分析-多重积分换元法
 date: 2025-06-28 19:59:07 +0800
 categories: Learning
+tags:
+- calculus
 ---
 * toc
 {:toc}
@@ -42,4 +44,4 @@ $$ \mathrm{d}x\mathrm{d}y\mathrm{d}z = r\mathrm{d}r\mathrm{d}\theta\mathrm{d}z $
 
 ### 球坐标系
 
-$$ \mathrm{d}x\mathrm{d}y\mathrm{d}z = r^2\sin\phi \mathrm{d}r\mathrm{d}\phi\mathrm{d}\theta $$
+$$ \mathrm{d}x\mathrm{d}y\mathrm{d}z = r^2\sin\varphi \mathrm{d}r\mathrm{d}\varphi\mathrm{d}\theta $$
