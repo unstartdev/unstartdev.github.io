@@ -5,6 +5,8 @@ date: 2025-05-10 10:32:22 +0800
 categories: Learning
 tags: calculus
 ---
+* toc
+{:toc}
 
 # 前置
 
@@ -28,6 +30,13 @@ tags: calculus
 ## 欧拉公式
 
 $$ \mathrm{e}^{\mathrm{i} \theta} = \cos \theta + \mathrm{i} \sin \theta $$
+
+## 实用的积分公式
+
+$$ \int_0^{\pi/2} \sin^n x \mathrm{d} x = \int_0^{\pi/2} \cos^n x \mathrm{d} x = \begin{cases}
+\dfrac{(n-1)!!}{n!!} \cdot \dfrac{\pi}{2}, & n=2k, n \geq 1, n \in \mathbb{N} \\ \\
+\dfrac{(n-1)!!}{n!!}, & n = 2k - 1, n \geq 1, n \in \mathbb{N}
+\end{cases} $$
 
 # 复习内容
 
