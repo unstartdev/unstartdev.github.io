@@ -40,7 +40,7 @@ tags:
 - [x] 随机向量协方差、相关系数的计算和性质
 - [x] ~~条件期望及性质~~
 
-# [大数定律和中心极限定理]({% post_url 2025-06-18-ps-law-of-large-number-and-central-limit-theorem.html %})
+# [大数定律和中心极限定理]({% post_url 2025-06-18-ps-law-of-large-number-and-central-limit-theorem %})
 
 - [x] **切比雪夫不等式**
 - [x] 辛钦大数定律
