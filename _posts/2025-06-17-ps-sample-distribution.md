@@ -20,7 +20,7 @@ $$ E[\bar{X}] = \mu,\, Var[\bar{X}] = \frac{\sigma^2}{n}, \\ E[S_n^2] = \frac{n-
 
 $$ \bar{X} \sim N\left(\mu, \frac{\sigma^2}{n}\right) $$
 
-$$ \frac{nS_n^2}{\sigma^2} \sim \chi^2(n-1) $$
+$$ \frac{(n-1)S_n^{*2}}{\sigma^2} = \frac{nS_n^2}{\sigma^2} \sim \chi^2(n-1) $$
 
 (2) 
 
@@ -28,7 +28,7 @@ $$ \frac{\bar{X} - \mu}{S_n^*}\sqrt{n} = \frac{\bar{X} - \mu}{S_n}\sqrt{n-1} \si
 
 (3) 
 
-$$ \frac{\dfrac{m}{m-1}S_{1m}^2 / \sigma_1^2}{\dfrac{n}{n-1}S_{2n}^2 / \sigma_2^2} = \frac{S_{1m}^{*2} / \sigma_2^2}{S_{2n}^{*2} / \sigma_1^2} \sim F(m-1, n-1) $$
+$$ \frac{S_{1m}^{*2} / \sigma_2^2}{S_{2n}^{*2} / \sigma_1^2} = \frac{\dfrac{m}{m-1}S_{1m}^2 / \sigma_1^2}{\dfrac{n}{n-1}S_{2n}^2 / \sigma_2^2} \sim F(m-1, n-1) $$
 
 (4)
 
@@ -37,6 +37,9 @@ $$ \frac{(\bar{X} - \bar{Y}) - (\mu_1 - \mu_2)}{S_\omega \sqrt{\dfrac{1}{m}+\dfr
 其中
 
 $$ S_\omega = \sqrt{\dfrac{mS_{1m}^2 + nS_{2n}^2}{m+n-2}} $$
+
+
+**NB:** 注意其中 $S_n^*$ 和 $S_n$ 的区别, 切记切记
 
 # 分位数
 
