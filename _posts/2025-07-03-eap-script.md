@@ -3,31 +3,75 @@ layout: post
 title: eap-script
 date: 2025-07-03 02:27:48 +0800
 categories: Learning
+hidden: true
 ---
 * toc
 {:toc}
 
 # Summary
 
-- 
-- 
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
-- 
+- It keeps us striving for success.
+- By doing the things we fear.
+- Make changes on a daily basis.
+- IQ wasn’t the only factor that influenced students’ performance.
+- Factors contributing to success.
+- We have little knowledge about how to build it.
+- It weakens our motivation and efficiency.
+- It allows us to focus on the most important tasks first.
+- By surrounding ourselves with visual cues.
+- It is an effective technique for time management.
+- We will experience more stress.
+- By dividing the project into smaller parts.
+- It promotes faster and better sleep.
+- Tips for reducing stress levels at school.
+- Acknowledging its presence.
+- By expressing concerns and listening to our partner.
+- It leads to misguided perceptions and unhealthy comparisons.
+- They often mark the path to great achievements.
+- It prolongs the impact of negative emotions.
+- When we are calm enough.
+- It takes time to find an appropriate way to manage negative emotions.
+- By getting to know each other.
+- Take action beforehand to avoid potential problems.
+- We should express our concerns and discuss solutions together.
+- Local residents living down the street.
+- Sponsoring local organizations.
+- Creating loyalty programs.
+- They help protect privacy and prevent trespassing.
+- They were not harmful to neighborly communication.
+- There will be fewer free exchanges of ideas.
+- By overcoming the challenges posed by invisible boundaries.
+- Whether the government should support research with less immediate value.
+- Failure to support such research hinders the discovery of new knowledge.
+- Computer research was not well-received at first but has proven beneficial.
+- People are taught that focus is the key to success.
+- It helps us generate original ideas.
+- Daydreaming can distract one’s attention from the current task.
+- It involves developing skills and talents.
+- It involves the development of new ideas.
+- It is about creating something new that can bring value to others.
+- Creativity helps generate ideas; innovation applies them.
+- She no longer felt passionate.
+- Pursuing anything that reflects our passion.
+- A freelance writer.
+- He appreciated the audience’s reactions to his work.
+- Interpreters can meet people from diverse backgrounds and cultures.
+- They enable effective communication during conferences and negotiations.
+- It helps one maintain composure under pressure.
+- It provides time for detachment and recovery.
+- Dwelling on the negatives of the workday.
+- Engaging in conversations with friends.
+- It helps us understand the reasons behind other people’s points.
+- We expect other people to behave in a certain way.
+- By focusing on positive issues and seeking common ground.
+- Suggestions on dealing with conflicts in our relationships.
+- It is slow to degrade and hard to recycle.
+- They were discouraged by the numerous failures they faced.
+- Creating activated carbon from it.
+- They focus on individual objects and their characteristics.
+- Psychology.
+- Logical reasoning.
+- People acquire their thinking styles from the environment.
 
 # Unit 1 Access to success
 
@@ -200,7 +244,7 @@ embrace success.
 
     C It enables us to prioritize the achievable tasks.
 
-    **D It allows us to focus on the most important tasks first.**
+    **D It allows us to focus on the most important tasks first**
 
 3. How can we enhance our concentration?
 
@@ -382,13 +426,13 @@ jealousy will naturally fade from our lives.
 
 2. How can we alleviate jealousy in a relationship?
 
-A By building trust with our partner.
+    A By building trust with our partner.
 
-B By figuring out the reasons behind our jealousy.
+    B By figuring out the reasons behind our jealousy.
 
-**C By expressing concerns and listening to our partner.**
+    **C By expressing concerns and listening to our partner.**
 
-D By appreciating our own unique qualities and strengths.
+    D By appreciating our own unique qualities and strengths.
 
 3. Why has social media turned into a breeding ground for jealousy?
 
@@ -856,13 +900,13 @@ be.
 
 3. What does the speaker say about computer research?
 
-A Computer research was given priority even in the face of opposition.
+    A Computer research was given priority even in the face of opposition.
 
-**B Computer research was not well-received at first but has proven beneficial.**
+    **B Computer research was not well-received at first but has proven beneficial.**
 
-C People have always been aware of the practical benefits of computer research.
+    C People have always been aware of the practical benefits of computer research.
 
-D The progress of computer research was slow at first due to insufficient funding.
+    D The progress of computer research was slow at first due to insufficient funding.
 
 ## Lecture 1
 
