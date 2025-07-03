@@ -7,6 +7,28 @@ categories: Learning
 * toc
 {:toc}
 
+# Summary
+
+- 
+- 
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+- 
+
 # Unit 1 Access to success
 
 ## Passage
@@ -539,8 +561,34 @@ harmony with those around us.
 ### Questions
 
 1. How can we build trust and understanding with our neighbors?
+
+    A By visiting them frequently.
+
+    **B By getting to know each other.**
+
+    C By organizing parties together.
+
+    D By taking family vacations together.
+
 2. What should we do if we are likely to cause problems for our neighbors?
+
+    A Address problems appropriately when they occur.
+
+    B Apologize to our neighbors when problems occur.
+
+    **C Take action beforehand to avoid potential problems.**
+
+    D Immediately cease activities that may cause problems.
+
 3. How should we react if our neighbors are bothering us?
+
+    A We should involve the police for help.
+
+    B We should wait patiently for their explanations.
+
+    **C We should express our concerns and discuss solutions together.**
+
+    D We should involve more family members to address the problem.
 
 ## Lecture 1
 
@@ -604,8 +652,34 @@ continued success of your business.
 ### Questions
 
 1. Who are the most likely loyal customers of a sandwich shop, according to the lecture?
+
+    A People who love sandwiches.
+
+    B People who are offered coupons.
+
+    **C Local residents living down the street.**
+
+    D Office workers living in the community.
+
 2. Which of the following methods is crucial to building a genuine connection between a business and the local community?
+
+    A Offering coupons.
+
+    B Distributing free lunches.
+
+    C Handing out free samples.
+
+    **D Sponsoring local organizations.**
+
 3. Which of the following strategies is effective in reinforcing the connection between a business and the local community?
+
+    **A Creating loyalty programs.**
+
+    B Offering more discounts to customers.
+
+    C Choosing several advertising platforms.
+
+    D Working with the most suitable marketing company.
 
 ## Lecture 2
 
@@ -670,9 +744,44 @@ compassion, and communication.
 ### Questions
 
 1. Why are well-defined boundaries beneficial?
+
+    **A They help protect privacy and prevent trespassing.**
+
+    B They separate one's property from their neighbors'.
+
+    C They prevent the occurrence of neighborhood disputes.
+
+    D They enhance safety by defining the zones for specific activities.
+
 2. What does the speaker say about boundaries in the past?
+
+    A They were solid and well-defined.
+
+    B They were more visible and tangible.
+
+    C They were not reliable in terms of safety.
+
+    **D They were not harmful to neighborly communication.**
+
 3. What is the possible consequence of overemphasizing boundaries in today's world?
+
+    A There will be fewer casual interactions.
+
+    B There will be fewer gatherings and parties.
+
+    **C There will be fewer free exchanges of ideas.**
+
+    D There will be a misleading sense of security.
+
 4. How should we address boundaries in modern times, according to the lecture?
+
+    A By making more efforts to prevent invisible boundaries.
+
+    **B By overcoming the challenges posed by invisible boundaries.**
+
+    C By striking a balance between invisible and physical boundaries.
+
+    D By removing all forms of boundaries to promote communication.
 
 # Unit 4 What's the big idea
 
@@ -726,8 +835,34 @@ be.
 ### Questions
 
 1. What do people disagree about regarding scientific research?
+
+    A Whether research should be conducted for its immediate benefits.
+
+    B Whether research should continue even without financial support.
+
+    C Whether the government should distribute funds for research equally.
+
+    **D Whether the government should support research with less immediate value.**
+
 2. Why should we value research with unknown benefits?
+
+    A Such research is also aimed at discovering truths.
+
+    B Much of such research has proven beneficial to society.
+
+    C Such research can have a long-term impact on our society.
+
+    **D Failure to support such research hinders the discovery of new knowledge.**
+
 3. What does the speaker say about computer research?
+
+A Computer research was given priority even in the face of opposition.
+
+**B Computer research was not well-received at first but has proven beneficial.**
+
+C People have always been aware of the practical benefits of computer research.
+
+D The progress of computer research was slow at first due to insufficient funding.
 
 ## Lecture 1
 
@@ -796,8 +931,34 @@ necessary for your next remarkable achievement.
 ### Questions
 
 1. Why is daydreaming often criticized?
+
+    A People often get lost in daydreams.
+
+    B Too many people indulge in daydreaming.
+
+    C Daydreaming indicates a lack of productivity.
+
+    **D People are taught that focus is the key to success.**
+
 2. What is the benefit of daydreaming, according to the lecture?
+
+    A It makes our brains more active.
+
+    **B It helps us generate original ideas.**
+
+    C It creates endless possibilities for success.
+
+    D It helps us understand the people around us.
+
 3. Why is it necessary to exercise control over daydreaming?
+
+    A Daydreaming can waste time if it occurs too frequently.
+
+    B Daydreaming may lead to a loss of one's self-awareness.
+
+    **C Daydreaming can distract one's attention from the current task.**
+
+    D Daydreaming may foster a constant desire to escape from the present.
 
 ## Lecture 2
 
@@ -857,9 +1018,44 @@ from one another.
 ### Questions
 
 1. What can we learn about being artistic from the lecture?
+
+    **A It involves developing skills and talents.**
+
+    B It is the ability to think outside the box.
+
+    C It is about doing something that's unknown to others.
+
+    D It means creating for specific listeners, viewers, or users.
+
 2. What is creativity, according to the lecture?
+
+    **A It involves the development of new ideas.**
+
+    B It involves self-reflection or self-expression.
+
+    C It is about turning imaginative ideas into reality.
+
+    D It is about employing artistic skills to create something.
+
 3. What does the speaker say about innovation?
+
+    A It is more of an imaginative process than a productive one.
+
+    B It represents a spontaneous departure from the mainstream.
+
+    C It often leads to outcomes that can be seen in various forms.
+
+    **D It is about creating something new that can bring value to others.**
+
 4. What is the difference between creativity and innovation?
+
+    A Innovation is a process; creativity is the final product.
+
+    **B Creativity helps generate ideas; innovation applies them.**
+
+    C Innovation is linked to science; creativity is linked to art.
+
+    D Creativity is inward-focused; innovation is outward-focused.
 
 # Unit 5 More than a paycheck
 
@@ -908,8 +1104,34 @@ feel like I am truly living my life's purpose.
 ### Questions
 
 1. Why did the speaker become dissatisfied with her job at the company?
+
+    **A She no longer felt passionate.**
+
+    B There was no salary increase.
+
+    C She felt there was no flexibility.
+
+    D Her boss was not understanding.
+
 2. What can help us achieve a sense of fulfillment, according to the speaker?
+
+    A Starting our own businesses.
+
+    B Creating something from scratch.
+
+    C Turning hobbies into professional pursuits.
+
+    **D Pursuing anything that reflects our passion.**
+
 3. What job does the speaker find most suitable for herself now?
+
+    A A business owner.
+
+    B An online teacher.
+
+    **C A freelance writer.**
+
+    D An investment advisor.
 
 ## Lecture 1
 
@@ -973,9 +1195,44 @@ fascinating world of interpreting?
 ### Questions
 
 1. Why did the speaker find it rewarding to interpret for the Spanish author?
+
+A He had a crucial role in the conference.
+
+B He was praised by the author for his good work.
+
+**C He appreciated the audience's reactions to his work.**
+
+D He accurately interpreted the author's ideas and works.
+
 2. Why can being an interpreter broaden one's horizons?
+
+    A Interpreters are on a never-ending journey to different places.
+
+    B Interpreters play different roles in various events and conferences.
+
+    **C Interpreters can meet people from diverse backgrounds and cultures.**
+
+    D Interpreters can acquire world views distinct from those of other people.
+
 3. Why do interpreters have the privilege of witnessing history unfold before their eyes?
+
+    A They help organize many high-level conferences.
+
+    B They help make critical decisions in important negotiations.
+
+    C They often have the best seats at  many high-level conferences.
+
+    **D They enable effective communication during conferences and negotiations.**
+
 4. How does interpreting contribute to one's personal development?
+
+    A It makes one understand others better.
+
+    B It helps one manage emotions effectively.
+
+    C It helps one develop various speaking styles.
+
+    **D It helps one maintain composure under pressure.**
 
 ## Lecture 2
 
@@ -1033,8 +1290,34 @@ significantly enhance your overall well-being.
 ### Questions
 
 1. What can we learn about the "in-between" space from the lecture?
+
+    A It leads to increased levels of stress.
+
+    **B It provides time for detachment and recovery.**
+
+    C It blurs the boundaries between work and home life.
+
+    D It encourages greater mental engagement and productivity.
+
 2. According to the lecture, what may undermine the positive effects of commuting?
+
+    A Focusing on the road map.
+
+    B Getting off at the wrong bus stop.
+
+    C Taking a longer commute every day.
+
+    **D Dwelling on the negatives of the workday.**
+
 3. Which of the following is mentioned in the lecture as a means of making our commute more positive and fulfilling?
+
+    A Spending less time on the road.
+
+    **B Engaging in conversations with friends.**
+
+    C Watching the changing scenery along the way.
+
+    D Choosing comfortable means of transportation.
 
 # Unit 6 For every question there is an answer
 
@@ -1088,9 +1371,44 @@ peaceful life.
 ### Questions
 
 1. Why is it important to consider problems from other people's perspectives?
+
+    A It helps us agree with other people's points.
+
+    B It helps us be better understood by other people.
+
+    C It helps us understand the backgrounds of other people.
+
+    **D It helps us understand the reasons behind other people's points.**
+
 2. What is a major cause of conflicts in relationships, according to the passage?
+
+    A We don't respect other people's decisions.
+
+    B We get upset with other people's misbehavior.
+
+    **C We expect other people to behave in a certain way.**
+
+    D We blame other people for their mistakes and limitations.
+
 3. How should we solve problems through communication?
+
+    A By looking for things that are left unsaid.
+
+    B By bringing up old conflicts and solving them.
+
+    C By talking frankly and honestly to earn each other's trust.
+
+    **D By focusing on positive issues and seeking common ground.**
+
 4. What is the passage mainly about?
+
+    A Different types of conflicts in our relationships.
+
+    **B Suggestions on dealing with conflicts in our relationships.**
+
+    C Suggestions on how to avoid conflicts in our relationships.
+
+    D Reasons behind various types of conflicts in our relationships.
 
 ## Lecture 1
 
@@ -1146,8 +1464,34 @@ situations.
 ### Questions
 
 1. Why is styrofoam an environmental problem?
+
+    A It ends up as litter.
+
+    B It is impossible to degrade.
+
+    **C It is slow to degrade and hard to recycle.**
+
+    D Its manufacturing process is harmful to the environment.
+
 2. How did the team feel at the beginning of the experiment?
+
+    A They were encouraged by their immediate success.
+
+    B They were doubtful about the method of their experiment.
+
+    **C They were discouraged by the numerous failures they faced.**
+
+    D They were relieved as they found the process easier than expected.
+
 3. What is the team's solution for the problem of used styrofoam?
+
+    A Heating it to make it vaporize.
+
+    **B Creating activated carbon from it.**
+
+    C Using several methods to recycle it.
+
+    D Finding a use for it in manufacturing other products.
 
 ## Lecture 2
 
@@ -1213,7 +1557,41 @@ interpret the complexities of daily life.
 ### Questions
 
 1. What can we learn about analytic thinkers from the lecture?
+
+    A They focus on the relationships between objects.
+
+    B They are good at making well-informed choices.
+
+    C They place a high value on empath and creativity.
+
+    **D They focus on individual objects and their characteristics.**
+
 2. In which of the following fields does holistic thinking play an important role?
+
+    A Finance.
+
+    B Science.
+
+    **C Psychology.**
+
+    D Engineering.
+
 3. Which of the following is emphasized by ancient Greek philosophers?
+
+    **A Logical reasoning.**
+
+    B Harmony and balance.
+
+    C The acceptance of changes.
+
+    D The adaptability of thinking patterns.
+
 4. What can we learn about the development of thinking styles from the lecture?
 
+    A People are born either analytic or holistic thinkers.
+
+    **B People acquire their thinking styles from the environment.**
+
+    C People's thinking styles can be influenced by personal preferences.
+
+    D People develop their thinking styles by learning from their experiences.
