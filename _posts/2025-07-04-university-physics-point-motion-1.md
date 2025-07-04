@@ -176,6 +176,6 @@ $$ \vec{v}_{S^\prime} = \frac{\mathrm{d}\vec{r}^\prime}{\mathrm{d}t} $$
 
 ### 速度变换
 
-$$ \vec{v}_S = \vec{v}_{S^\prime} + \vec{v}_{O^\primeO} $$
+$$ \vec{v}_S = \vec{v}_{S^\prime} + \vec{v}_{O^\prime O} $$
 
 $$ \vec{a}_S = \vec{a}_{S^\prime} + \vec{a}_{O^\prime O} $$
