@@ -208,9 +208,9 @@ $$ n_1\sin i = n_2\sin \gamma $$
 
 两列波在 $P$ 点处的相位差
 
-$$ y_1 = A_1 \cos \left(\omega t - \frac{2\pi r_1}{\lambda} + \varphi_1) $$
+$$ y_1 = A_1 \cos \left(\omega t - \frac{2\pi r_1}{\lambda} + \varphi_1\right) $$
 
-$$ y_2 = A_2 \cos \left(\omega t - \frac{2\pi r_2}{\lambda} + \variphi_2) $$
+$$ y_2 = A_2 \cos \left(\omega t - \frac{2\pi r_2}{\lambda} + \variphi_2\right) $$
 
 $$ \Delta \varphi = \frac{2\pi}{\lambda}(r_2-r_1)+(\varphi_1-\varphi_2) $$
 
