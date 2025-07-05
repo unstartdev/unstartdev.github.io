@@ -6,6 +6,13 @@ categories: Learning
 tags:
 - University Physics
 ---
+# 计算题
+
+1. 刚体力学
+2. 机械振动与机械波
+3. 光的衍射
+4. 热力学第一定律
+
 # 力学
 
 - [x] 质点运动学
