@@ -3,6 +3,8 @@ layout: post
 title: 大学物理III-13.2热力学第二定律
 date: 2025-06-11 19:10:30 +0800
 categories: Learning
+tags:
+- University Physics
 ---
 * toc
 {:toc}
