@@ -162,7 +162,7 @@ $$ \mathrm{d} E_p = F_T \, \frac{1}{2} A^2\omega^2\frac{\rho_l}{F_T}\sin^2\left(
 
 ### 质元总机械能
 
-$$ \mathrm{d} E = \mathrm{d} E_p + \mathrm{d} E_k = \rho_l \mathrm{d} x A^2\omega^2sin^2\left(\omega t - \omega \frac{x}{u}\right) $$
+$$ \mathrm{d} E = \mathrm{d} E_p + \mathrm{d} E_k = \rho_l \mathrm{d} x A^2\omega^2\sin^2\left(\omega t - \omega \frac{x}{u}\right) $$
 
 ### 能量密度
 
