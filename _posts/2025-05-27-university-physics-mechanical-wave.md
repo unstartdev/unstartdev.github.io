@@ -244,4 +244,6 @@ $$ y_2(x,t) = A\cos\left(\omega t - \omega\frac{x}{u}\right) $$
 
 $$ \cos A + \cos B = \cos\left(\frac{A+B}{2} + \frac{A-B}{2}\right) + \cos\left(\frac{A+B}{2} - \frac{A-B}{2}\right) = 2\cos\frac{A+B}{2}\cos\frac{A-B}{2} $$
 
-该公式的记忆只要结合
+**NB:**
+
+相邻两波节的相位差为 $0$,同一波节两侧的质点的相位差为 $\pi$

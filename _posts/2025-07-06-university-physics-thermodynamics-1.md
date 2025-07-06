@@ -98,6 +98,10 @@ $$ \epsilon = \frac{Q_2}{\vert A \vert} = \frac{Q_2}{\vert Q_1 \vert - Q_2} $$
 
 $$ \eta = 1 - \frac{T_2}{T_1} $$
 
+### 卡诺热机净功
+
+$$ W = nR(T_h - T_c)\ln \frac{V_2}{V_1} $$
+
 ### 卡诺致冷机效率
 
 $$ \epsilon = \frac{T_2}{T_1-T_2} $$

@@ -109,7 +109,7 @@ $$ \int_2^1 \frac{\delta Q}{T} = S_1 - S_2 $$
 
 于是
 
-$$ \Delta S = S_2 - S_1 \gt \int_1^2 \gt \int_1^2 \frac{\delta Q}{T} \gt 0 $$
+$$ \Delta S = S_2 - S_1 \gt \int_1^2 \frac{\delta Q}{T} \gt 0 $$
 
 与可逆过程的情况合并即得
 
@@ -124,3 +124,7 @@ $$ \Delta S \geq 0 $$
 $$ \Delta S = \nu R \ln(V_2 / V_1) $$
 
 当作等温过程进行计算可以推出上面的关系
+
+
+$$ \frac{\cfrac{2\pi}{3} + \cfrac{\pi}{2}}{2\pi} T = 1,\\
+T = \frac{12}{7} = \frac{2\pi}{\omega}, \\ \omega = \frac{7}{6}\pi $$
