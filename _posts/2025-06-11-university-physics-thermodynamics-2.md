@@ -55,7 +55,7 @@ or
 
 即以下关系式
 
-$$ \iota = 1 - \frac{Q_2}{Q_1} \leq 1 - \frac{T_2}{T_1} $$
+$$ \eta = 1 - \frac{Q_2}{Q_1} \leq 1 - \frac{T_2}{T_1} $$
 
 # 熵
 
@@ -101,7 +101,7 @@ $$ 1 - \frac{1}{Q_1} \lt 1 - \frac{1}{T_1}, \\
 
 构造一个从状态1到状态2为不可逆过程而从状态2到状态1为可逆过程的循环（状态1到状态2需要吸热），同时可知该循环为不可逆循环，于是
 
-$$ \oint \frac{\delta Q}{T} = \int_1^2 \frac{\delta Q}{T + \int_2^1 \frac{\delta Q}{T}} \lt 0 $$
+$$ \oint \frac{\delta Q}{T} = \int_1^2 \frac{\delta Q}{T} + \int_2^1 \frac{\delta Q}{T} \lt 0 $$
 
 又
 
