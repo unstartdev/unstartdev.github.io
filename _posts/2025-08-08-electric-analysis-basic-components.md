@@ -6,6 +6,8 @@ categories: Learning
 tags:
 - Electric Analysis
 ---
+* toc
+{:toc}
 ## 电阻
 
 $$ u = iR $$
@@ -81,7 +83,7 @@ $$ W(t) = \int_{-\infty}^t p(t)\mathrm{d}t = \int_{-\infty}^t Li(t)\mathrm{d}i(t
 
 ## 独立电压源
 
-$$ u = U_S(t) \text{or} u=U_S \text{称恒压源} $$
+$$ u = U_S(t) \  \text{or} \  u=U_S \text{称恒压源} $$
 
 不能被短路
 
@@ -91,7 +93,7 @@ $$ u = U_S(t) \text{or} u=U_S \text{称恒压源} $$
 
 ## 独立电流源
 
-$$ i=i_S(t) \text{or} i=I_S \text{称恒流源} $$
+$$ i=i_S(t) \  \text{or} \  i=I_S \text{称恒流源} $$
 
 输出不能开路
 
