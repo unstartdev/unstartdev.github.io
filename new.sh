@@ -8,7 +8,7 @@ case $whatisthis in
   post )
   echo "Input new post's title:"
   read _post_title
-  echo "Input new postS's categories:"
+  echo "Input new post's categories:"
   read _post_categories
   touch ./_posts/${TIMEFILE}-${_post_title}.md
   echo "---" >> ./_posts/${TIMEFILE}-${_post_title}.md
