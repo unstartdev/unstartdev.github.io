@@ -115,7 +115,7 @@ E = \begin{cases}
 \end{cases}
 $$
 
-## 均匀带电球体
+### 均匀带电球体
 
 $$
 E = \begin{cases}
@@ -124,13 +124,13 @@ E = \begin{cases}
 \end{cases}
 $$
 
-## 无限长均匀带电直线
+### 无限长均匀带电直线
 
 $$
 E = \frac{\lambda}{2\pi\varepsilon_0 r}
 $$
 
-## 无限长圆柱面
+### 无限长圆柱面
 
 $$
 E = \begin{cases}
@@ -139,13 +139,13 @@ E = \begin{cases}
 \end{cases}
 $$
 
-## 无限大均匀带电平板
+### 无限大均匀带电平板
 
 $$
 E = \frac{\sigma}{2\varepsilon_0}
 $$
 
-## 两异号平板
+#### 电荷面密度等值异号的无限大均匀带电平行平板间
 
 $$
 E = \frac{\sigma}{\varepsilon_0}
