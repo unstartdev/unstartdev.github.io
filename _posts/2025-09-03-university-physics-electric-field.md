@@ -15,6 +15,10 @@ $$
 \vec{F} = \frac{1}{4\pi \varepsilon_0} \frac{q_1 q_2}{r^2}\vec{e}_r
 $$
 
+其中 $\varepsilon_0 \approx 8.85 \times 10^{-12} \mathrm{C^{2} \cdot N^{-1} \cdot m^{-2}}$ 称为真空介电常量
+
+在高中我们用过的库仑力中的比例系数 $k = \frac{1}{4\pi\varepsilon_0} \approx 9 \times 10^{9} \mathrm{N \cdot m^2 \cdot C^{-2}}$
+
 ## 电场强度
 
 $$
