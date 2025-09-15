@@ -205,7 +205,7 @@ $$
 ## 电势与场强的微分关系
 
 $$
-\vec{E} = - \frac{\mathrm{d}U}{\mathrm{d}n}\vec{e}_n = - \nabla U
+\vec{E} = - \frac{\mathrm{d}U}{\mathrm{d}n}\vec{e}_n = - \nabla \cdot U
 $$
 
 $\frac{\mathrm{d}U}{\mathrm{d}n}$ 为电势沿等势面法线的方向导数
