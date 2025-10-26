@@ -63,7 +63,7 @@ $\vec{e}_n$ 为线圈平面的法线方向
 
 考虑法线与磁场的夹角 $\varphi$
 
-1. $\varphi = \pi / 2, \vec{p}_m \perp \vec{B}, M_{\text{max}} = NIBS$ 力矩作用将使 $\varphi$ 减少
+1. $\varphi = \pi / 2, \vec{p}_m \perp \vec{B}, M_{\text{max}} = NIBS$ 力矩作用将使夹角减少
 2. $\varphi = 0, M = 0, \vec{p}_m \parallel \vec{B}$ 稳定平衡状态
 3. $\varphi = 0, M = 0, \vec{p}_m = -k\vec{B}$ 处于非稳定平衡状态，稍微扰动即可使线圈装动使 $\varphi$ 减小
 
