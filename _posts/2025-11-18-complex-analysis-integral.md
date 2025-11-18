@@ -50,7 +50,8 @@ $$ f^{(n)}(z_0) = \frac{1}{2 \pi \mathrm{i}} \oint_C \frac{f(z)}{(z-z_0)^{n+1}} 
 
 ##### 柯西不等式
 
-$f(z)$ 为区域 $D$ 上的解析函数，圆周$C: \| z-z_0 \| = R$及其内部含于区域内，设 $M(R) = \underset{\text{max}}{z \in C} \| f(z) \|$
+$f(z)$ 为区域 $D$ 上的解析函数，圆周$C: \| z-z_0 \| = R$及其内部含于区域内，设 $M(R) = \underset{z \in C}{\text{max}} \| f(z) \|$
+
 
 $$ \| f^{(n)}(z_0) \| \leq \frac{n! M(R)}{R^n} $$
 
