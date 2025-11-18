@@ -19,9 +19,9 @@
    <!-- The loading of KaTeX is deferred to speed up page rendering -->
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js" integrity="sha512-LQNxIMR5rXv7o+b1l8+N1EZMfhG7iFZ9HhnbJkTp4zjNr5Wvst75AqUeFDxeRUa7l5vEDyUiAip//r+EFLLCyA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
    <!-- To automatically render math in text elements, include the auto-render extension: -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js" integrity="sha512-iWiuBS5nt6r60fCz26Nd0Zqe0nbk1ZTIQbl3Kv7kYsX+yKMUFHzjaH2+AnM6vp2Xs+gNmaBAVWJjSmuPw76Efg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js" integrity="sha512-iWiuBS5nt6r60fCz26Nd0Zqe0nbk1ZTIQbl3Kv7kYsX+yKMUFHzjaH2+AnM6vp2Xs+gNmaBAVWJjSmuPw76Efg==" crossorigin="anonymous" referrerpolicy="no-referrer" onload="mathRender()"></script>
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    function mathRender() {
         renderMathInElement(document.body, {
           // customised options
           // • auto-render specific keys, e.g.:
@@ -34,7 +34,7 @@
           // • rendering keys, e.g.:
           throwOnError : false
         });
-    });
+    };
   </script>
   <style>
     .katex-display { overflow: auto hidden }
