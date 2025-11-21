@@ -15,7 +15,7 @@ case $whatisthis in
   echo "layout: post" >> ./_posts/${TIMEFILE}-${_post_title}.md
   echo "title: ${_post_title}" >> ./_posts/${TIMEFILE}-${_post_title}.md
   echo "date: ${TIMENOW}" >> ./_posts/${TIMEFILE}-${_post_title}.md
-  echo "categories: ${_post_categories}" >> ./_posts/${TIMEFILE}-${_post_title}.md
+  echo "category: ${_post_categories}" >> ./_posts/${TIMEFILE}-${_post_title}.md
   echo "---" >> ./_posts/${TIMEFILE}-${_post_title}.md
   if [ -s ./_posts/${TIMEFILE}-${_post_title}.md ]
   then

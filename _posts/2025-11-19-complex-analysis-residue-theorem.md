@@ -1,6 +1,6 @@
 ---
 layout: post
-title: complex-analysis-residue-theorem
+title: 复变函数-留数理论
 date: 2025-11-19 00:54:38 +0800
 category: Learning
 tags:
