@@ -221,11 +221,11 @@ $\varphi_n = \arg C_n$ 称**相位频谱**
 
 $\delta$ 函数定义在 $\mathbb{R}$ 且满足
 
-1. $\delta(t - t_0) = \begin{cases}
+1. $$\delta(t - t_0) = \begin{cases}
 +\infty, & t = t_0 \\
 0, & t \neq t_0
 \end{cases}
-$
+$$
 2. $\int_{-\infty}^{+\infty} \delta(t-t_0) \mathrm{d} t = 1$
 
 Dirac函数的奇异性发生在 $t_0$ 的邻域中，就是说
