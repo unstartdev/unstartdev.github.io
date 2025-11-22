@@ -360,4 +360,4 @@ $$ \lim_{t\to\infty} f^{(k)} t = 0, k = 0,1,\cdots,n-1 $$
 
 $$ \mathscr{F}\left[ f^{(n)} \right] = (\mathrm{j}\omega)^n \hat{f}(\omega) $$
 
-$$ \frac{\mathrm{d}^n \hat{f}(\omega)}{\mathrm{d}\omega^n} = (-\mathrm{j})^n \mathscr{F}\left[ t^nf(t) \right]
+$$ \frac{\mathrm{d}^n \hat{f}(\omega)}{\mathrm{d}\omega^n} = (-\mathrm{j})^n \mathscr{F}\left[ t^nf(t) \right] $$
