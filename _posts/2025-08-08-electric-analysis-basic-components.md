@@ -148,7 +148,7 @@ $$
 
 $$
 \begin{align}
-u = \frac{\mathrm{d}\phi}{\mathrm{d}t} \\
+u &= \frac{\mathrm{d}\phi}{\mathrm{d}t} \\
 & = M\frac{\mathrm{d}q}{\mathrm{d}t} \\
 & = Mi
 \end{align}
@@ -182,7 +182,7 @@ $$
 r_{be} = r_{bb^\prime} + r_{b^\prime e} = r_{bb^\prime} + \frac{V_T}{I_{BQ}}
 $$
 
-其中 $r_bb^\prime$ 为基区体电阻
+其中 $r_{bb^\prime}$ 为基区体电阻, $V_T = \frac{kT}{q} \approx 26 \mathrm{mV} (27 ^\circ \mathrm{C})$
 
 ### 高频小信号
 
