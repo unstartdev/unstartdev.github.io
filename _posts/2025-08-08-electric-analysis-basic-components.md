@@ -283,6 +283,6 @@ I_D = I_{DSS} \left( 1 - \frac{U_{GS}}{U_{GS(off)}} \right)
 $$
 
 $$
-g_m = \frac{\sqrt{I_{DQ}I_{DO}}}{\lvert U_{GS(on)} \rvert} \\ \ \\
-g_m = \frac{\sqrt{I_{DQ}I_{DSS}}}{\lvert U_{GS(off)} \rvert}
+g_m = 2\frac{\sqrt{I_{DQ}I_{DO}}}{\lvert U_{GS(on)} \rvert} \\ \ \\
+g_m = 2\frac{\sqrt{I_{DQ}I_{DSS}}}{\lvert U_{GS(off)} \rvert}
 $$
