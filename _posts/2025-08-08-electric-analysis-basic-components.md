@@ -132,6 +132,12 @@ i_1 = -\frac{1}{n} i_2
 \end{cases}
 $$
 
+变比
+
+$$
+\frac{N_1}{N_2} = \sqrt{L_1}{L_2}
+$$
+
 ### 作用
 
 - 电压变换
@@ -203,6 +209,10 @@ $$
 
 又根据参与导电的载流子分为N沟道和P沟道
 
+### 电路符号
+
+与箭头相连一侧的端子为源极
+
 ### 工作原理
 
 $u_{GS}$ 控制导电沟道状态，从而对 $i_{D}$ 实现控制
@@ -262,3 +272,17 @@ $$
 ### 高频信号
 
 G、D，G、S，D、S间存在寄生电容
+
+### 中频微变信号下的分析
+
+栅极与源极间开路，漏级与源极间作VCCS考虑
+
+$$
+I_D = I_{DO} \left( 1 - \frac{U_{GS}}{U_{GS(on)}} \right) \\ \ \\
+I_D = I_{DSS} \left( 1 - \frac{U_{GS}}{U_{GS(off)}} \right)
+$$
+
+$$
+g_m = \frac{\sqrt{I_{DQ}I_{DO}}}{\lvert U_{GS(on)} \rvert} \\ \ \\
+g_m = \frac{\sqrt{I_{DQ}I_{DSS}}}{\lvert U_{GS(off)} \rvert}
+$$
