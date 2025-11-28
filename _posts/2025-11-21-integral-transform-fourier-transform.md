@@ -361,3 +361,48 @@ $$ \lim_{t\to\infty} f^{(k)} t = 0, k = 0,1,\cdots,n-1 $$
 $$ \mathscr{F}\left[ f^{(n)} \right] = (\mathrm{j}\omega)^n \hat{f}(\omega) $$
 
 $$ \frac{\mathrm{d}^n \hat{f}(\omega)}{\mathrm{d}\omega^n} = (-\mathrm{j})^n \mathscr{F}\left[ t^nf(t) \right] $$
+
+
+### 积分性质
+
+$$ \lim_{t \to +\infty} \int_{-\infty}^t f(\tau) \mathrm{d} \tau $$
+
+则
+
+$$
+\mathscr{F}\left[ \int_{-\infty}^t f(\tau) \mathrm{d}\tau \right] = \frac{1}{\mathrm{j}\omega} \hat{f}(\omega)
+$$
+
+若 $\lim_{t \to +\infty} \int_{-\infty}^t f(\tau) \mathrm{d} \tau = \hat{f}(0) \neq 0$
+
+则
+
+$$
+\mathscr{F}\left[ \int_{-\infty}^t f(\tau) \mathrm{d} \tau \right] = \frac{1}{\mathrm{j}\omega} \hat{f}(\omega) + \pi \hat{f}(0) \delta(\omega)
+$$
+
+### 卷积和卷积定理
+
+$ D(f) = D(g) = \R $ 称
+
+$$ f(t) * g(t) = \int_{-\infty}^{+\infty} f(\tau) g(t-\tau)\mathrm{d}\tau $$
+
+为 $f(t)$ 和 $g(t)$ 的**卷积**
+
+卷积满足**交换律、结合律和对加法的分配律**
+
+#### 卷积定理
+
+$$ \hat{f}(\omega) = \mathscr{F}\left[ f(t) \right], \ \hat{g}(\omega) = \mathscr{F}\left[ g(t) \right] $$
+
+$$ \mathscr{F}\left[ f(t) * g(t) \right] = \hat{f}(\omega)\hat{g}(\omega) $$
+
+$$ \mathscr{F}\left[ f(t)g(t) \right] = \frac{1}{2\pi} \hat{f}(\omega) * \hat{g}(\omega) $$
+
+### $delta$ 函数与函数 $f(t)$ 的卷积公式
+
+$$ \delta(t-a) * f(t) = f(t-a) $$
+
+### 应用
+
+#### 求解微分方程
