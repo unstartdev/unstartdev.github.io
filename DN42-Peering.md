@@ -15,7 +15,7 @@ IPv6 LL: `fe80::2467`
 
 ## HK
 
-Bandwith 1T
+Bandwith 1Gbps (100Mbps after traffic exceeded), Traffic 1TB
 
 - Endpoint: `hk-w.unstartdev.eu.org`
 - Port: [您的AS后五位]
@@ -23,8 +23,10 @@ Bandwith 1T
 
 ## LAX
 
-Bandwith 5T
+Bandwith 1Gbps shared, Traffic 5T
 
 - Endpoint: `lax-s.unstartdev.eu.org`
 - Port: [您的AS后五位]
 - PublicKey: `Nn73gI6XYCHxKWybWPwFgNQM8/s5R3UzN6VqutUC/3s=`
+
+如需IPv4 or IPv6指定地址，在域名前加上v4. or v6.即可
