@@ -4,7 +4,7 @@ title: 积分变换-傅里叶变换
 date: 2025-11-21 12:25:44 +0800
 category: Learning
 tags:
-- Integral Tranform
+- Integral Transform
 ---
 * toc
 {:toc}
