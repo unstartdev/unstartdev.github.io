@@ -278,7 +278,7 @@ $$ \int_{-\infty}^{+\infty} \delta^{(n)}(t-t_0) \varphi(t) \mathrm{d}t = (-1)^n 
 
 #### 性质5 $\delta$ 函数的傅里叶变换
 
-$$ \mathscr{F}\left[ \delta(t-t_0) \right] = \mathrm{e}^{-\mathrm{j}\omega t} \mathrm{d} t \\
+$$ \mathscr{F}\left[ \delta(t-t_0) \right] = \mathrm{e}^{-\mathrm{j}\omega t_0} \\
 \mathscr{F}^{-1}\left[ \delta(\omega-\omega_0) \right] = \frac{1}{2\pi} \mathrm{e}^{\mathrm{j}\omega_0 t} $$
 
 使 $t_0 = 0, \omega_0 = 0$
@@ -299,6 +299,12 @@ $$
 1 \leftrightarrow 2\pi \delta(\omega)
 \end{cases}
 $$
+
+#### 性质6 $\delta\left[\varphi(t)\right]$ 型的公式
+
+1. $\delta(at) = \frac{1}{\lvert a \rvert} \delta(t), a \neq 0$
+2. $\delta(t^2-a^2) = \frac{1}{2\lvert a \rvert}\left[\delta(t-a)+\delta(t+a)\right], a\neq 0$
+3. $\delta[(t-a)(t-b)] = \frac{1}{\lvert a-b \rvert} [\delta(t-a) + \delta(t-b)]$
 
 #### 单位阶跃函数的傅里叶变换
 
@@ -399,7 +405,7 @@ $$ \mathscr{F}\left[ f(t) * g(t) \right] = \hat{f}(\omega)\hat{g}(\omega) $$
 
 $$ \mathscr{F}\left[ f(t)g(t) \right] = \frac{1}{2\pi} \hat{f}(\omega) * \hat{g}(\omega) $$
 
-### $delta$ 函数与函数 $f(t)$ 的卷积公式
+### $\delta$ 函数与函数 $f(t)$ 的卷积公式
 
 $$ \delta(t-a) * f(t) = f(t-a) $$
 
