@@ -97,14 +97,14 @@ $$
 
 ### 单边衰减函数
 
-$$ f(t) = \begin{cases}
+$$ f(t) = e^{-\beta t} H(t) = \begin{cases}
 \mathrm{e}^{-\beta t}, & t \geq 0 \\
 0, & t \lt 0 \\
 \end{cases}
 , \ \beta \gt 0
 $$
 
-$$ \hat{f}(\omega) = \mathscr{F}\left[f(t)\right] = \frac{\beta - \mathrm{j}\omega}{\beta^2 + \omega^2}  $$
+$$ \hat{f}(\omega) = \mathscr{F}\left[f(t)\right] = \frac{\beta - \mathrm{j}\omega}{\beta^2 + \omega^2} = \frac{1}{\beta + \mathrm{j}\omega} $$
 
 由
 
