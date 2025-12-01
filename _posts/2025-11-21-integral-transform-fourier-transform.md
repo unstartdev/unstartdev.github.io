@@ -366,12 +366,12 @@ $$ \lim_{t\to\infty} f^{(k)} t = 0, k = 0,1,\cdots,n-1 $$
 
 $$ \mathscr{F}\left[ f^{(n)} \right] = (\mathrm{j}\omega)^n \hat{f}(\omega) $$
 
-$$ \frac{\mathrm{d}^n \hat{f}(\omega)}{\mathrm{d}\omega^n} = (-\mathrm{j})^n \mathscr{F}\left[ t^nf(t) \right] $$
+$$ \frac{\mathrm{d}^n \hat{f}(\omega)}{\mathrm{d}\omega^n} = \mathscr{F}\left[ (-\mathrm{j} t)^nf(t) \right] $$
 
 
 ### 积分性质
 
-$$ \lim_{t \to +\infty} \int_{-\infty}^t f(\tau) \mathrm{d} \tau $$
+$$ \lim_{t \to +\infty} \int_{-\infty}^t f(\tau) \mathrm{d} \tau  = 0$$
 
 则
 
@@ -412,3 +412,5 @@ $$ \delta(t-a) * f(t) = f(t-a) $$
 ### 应用
 
 #### 求解微分方程
+
+卷积定理+合适公式的应用
