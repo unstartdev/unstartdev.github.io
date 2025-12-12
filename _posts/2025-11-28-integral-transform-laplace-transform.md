@@ -19,7 +19,7 @@ $$ F(s) = \mathscr{L} \left[ f(t) \right] = \int_0^{+\infty} f(t) \mathrm{e}^{-s
 
 为 $F(s)$ 的**拉普拉斯变换**，并仿照傅里叶变换作出逆变换、象原函数、象函数的定义
 
-$$ f(t) = \mathscr{L}^{-1} \left[ F(s) \right] = \frac{1}{2\pi\mathrm{j}} \int_{\beta - \mathrm{j}\omega}^{\beta + \mathrm{j}\omega} F(s)\mathrm{e}^{st} \mathrm{d}s $$
+$$ f(t) = \mathscr{L}^{-1} \left[ F(s) \right] = \frac{1}{2\pi\mathrm{j}} \int_{\beta - \mathrm{j}\infty}^{\beta + \mathrm{j}\infty} F(s)\mathrm{e}^{st} \mathrm{d}s $$
 
 称为反演积分公式，积分为**反演积分**
 
