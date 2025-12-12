@@ -6,6 +6,9 @@ category: Learning
 tags:
 - Integral Transform
 ---
+* toc
+{:toc}
+
 ## 拉普拉斯变换
 
 定义
@@ -58,6 +61,10 @@ $$
 \delta(t-a)  \leftrightarrow e^{-sa} \\
 \delta(t) \leftrightarrow 1 \\
 a \geq 0
+$$
+
+$$
+t^m \leftrightarrow \frac{\Gamma (m+1)}{s^{m+1}}, \Re s \gt 0
 $$
 
 ## 拉普拉斯变换的性质
@@ -121,3 +128,21 @@ $$ \mathscr{L} \left[ f(t - \tau)H(t - \tau) \right] = \mathrm{e}^{-s\tau} F(s -
 $$ f(t) * g(t) = \int_0^\infty f(\tau) g(t - \tau)  \mathrm{d} \tau $$
 
 $$ \mathscr{L} \left[ f(t) * g(t) \right] = F(s)G(s) $$
+
+## 逆变换
+
+### 反演积分
+
+### 展开定理
+
+$$ f(t) = \sum_{k = 1}^n \text{Res} \left( F(s)\mathrm{e}^{st}, s_k \right) $$
+
+以上需要满足 $ s \to \infty, \  F(s) \to 0 $
+
+## 应用
+
+### 解微分方程
+
+给出一系列初值的问题，进行正变换求解后再对解进行逆变换
+
+### 
