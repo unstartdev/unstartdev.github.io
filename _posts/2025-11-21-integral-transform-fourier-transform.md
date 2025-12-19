@@ -414,3 +414,10 @@ $$ \delta(t-a) * f(t) = f(t-a) $$
 #### 求解微分方程
 
 卷积定理+合适公式的应用
+
+## 傅里叶变换对
+
+$$
+\mathscr{F}\left[ \sin at \right] = \pi \mathrm{j} \left[ \delta(\omega + a) - \delta(\omega - a) \right] \\ \ \\
+\mathscr{F}\left[ \cos at \right] = \pi \left[ \delta(\omega + a) + \delta(\omega - a) \right]
+$$

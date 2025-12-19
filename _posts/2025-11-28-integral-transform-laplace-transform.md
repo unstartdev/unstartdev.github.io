@@ -46,6 +46,12 @@ $$
 
 在平面 $\Re (s) \gt 0$ 存在，且是关于 $s$ 的解析函数
 
+## 周期函数的拉普拉斯变换
+
+$$
+F(s) = \frac{1}{1-\mathrm{e}^{-sT}} \int_0^T f(t) \mathrm{e}^{-st} \mathrm{d}t
+$$
+
 ### 拉式变换对
 
 $$
@@ -121,11 +127,11 @@ $$ \mathscr{L} \left[ \mathrm{e}^{\mathrm{j} a} f(t) \right] = F(s - a) $$
 
 ### 延迟性质
 
-$$ \mathscr{L} \left[ f(t - \tau)H(t - \tau) \right] = \mathrm{e}^{-s\tau} F(s - \tau) $$
+$$ \mathscr{L} \left[ f(t - \tau)H(t - \tau) \right] = \mathrm{e}^{-s\tau} F(s) $$
 
 ### 卷积与卷积定理
 
-$$ f(t) * g(t) = \int_0^\infty f(\tau) g(t - \tau)  \mathrm{d} \tau $$
+$$ f(t) * g(t) = \int_0^t f(\tau) g(t - \tau)  \mathrm{d} \tau $$
 
 $$ \mathscr{L} \left[ f(t) * g(t) \right] = F(s)G(s) $$
 
