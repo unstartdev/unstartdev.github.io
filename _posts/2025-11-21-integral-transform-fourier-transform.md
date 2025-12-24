@@ -419,5 +419,6 @@ $$ \delta(t-a) * f(t) = f(t-a) $$
 
 $$
 \mathscr{F}\left[ \sin at \right] = \pi \mathrm{j} \left[ \delta(\omega + a) - \delta(\omega - a) \right] \\ \ \\
-\mathscr{F}\left[ \cos at \right] = \pi \left[ \delta(\omega + a) + \delta(\omega - a) \right]
+\mathscr{F}\left[ \cos at \right] = \pi \left[ \delta(\omega + a) + \delta(\omega - a) \right] \\
+\mathscr{F}\left[ \mathrm{e}^{-a \lvert t \rvert} \right] = \frac{2a}{\omega^2 + a^2}, \  \Re(a) \gt 0
 $$
