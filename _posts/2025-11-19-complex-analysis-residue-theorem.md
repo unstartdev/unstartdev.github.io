@@ -37,7 +37,7 @@ $$ \oint_C f(z) \mathrm{d} z = 2\pi \mathrm{i} \sum_{k=1}^n \text{Res} (f(z), z_
 
 $f(z)$ 在无穷远点的邻域 $0< \| z \| < \infty$ 内解析
 
-$$ \text{Res} (f(z), \infty) = \frac{1}{2\pi \mathrm{i}}\oint_{C^{-}} f(z) \mathrm{d} z = - c^{-1} $$
+$$ \text{Res} (f(z), \infty) = \frac{1}{2\pi \mathrm{i}}\oint_{C^{-}} f(z) \mathrm{d} z = - \frac{1}{2 \pi \mathrm{i}} \oint_C f(z) \mathrm{d} z = - c_{-1} $$
 
 当 $f(z)$ 以 $z=\infty$ 为可去奇点时，也可能有 $\text{Res} (f(z), \infty) \neq 0$
 
