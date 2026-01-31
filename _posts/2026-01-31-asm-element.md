@@ -27,7 +27,7 @@ category: The assembly language
 42q
 42o
 1Ah
-{% end %}
+{% endhighlight %}
 
 以上这些表示的整型值都是26
 
@@ -44,7 +44,7 @@ category: The assembly language
 +3.0
 -11.1E+05
 26.E5
-{% end %}
+{% endhighlight %}
 
 至少需要一个数字和小数点来表示
 
@@ -53,7 +53,7 @@ category: The assembly language
 {% highlight asm %}
 'A'
 "a"
-{% end %}
+{% endhighlight %}
 
 字符常量会以它的ASCII码值进行存取
 
@@ -63,7 +63,7 @@ category: The assembly language
 'Hello'
 "Hello"
 '"Hello"'
-{% end %}
+{% endhighlight %}
 
 ## 保留字
 
@@ -101,7 +101,7 @@ count DWORD 100 ;A data label
 loop: ;A code label
     nop
     jmp loop ;A meaningless loop
-{% end %}
+{% endhighlight %}
 
 ### 指令助记符
 
@@ -129,7 +129,7 @@ COMMENT !
     感叹号可以被替换为其他符号只要不在注释中出现
 !
 
-{% end %}
+{% endhighlight %}
 
 ## 伪指令
 
@@ -143,4 +143,4 @@ var DWORD 26
 mov ax,var
 
 ;以上的.data和.code是段定义
-{% end %}
+{% endhighlight %}
