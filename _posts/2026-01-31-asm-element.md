@@ -2,7 +2,9 @@
 layout: post
 title: 汇编程序语言-基本程序要素
 date: 2026-01-31 16:14:40 +0800
-category: The assembly language
+category: Learning
+tags:
+- The assembly language
 ---
 ## 常量
 
